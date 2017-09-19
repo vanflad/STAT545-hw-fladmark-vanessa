@@ -2,6 +2,8 @@
 
 ## Welcome to my repository!
 
+# A few things about me:
+
 [Course site](http://stat545.com)
 
 ![](http://domesticcatworld.com/wp-content/uploads/2013/01/2-Tabby-cats.jpg)
