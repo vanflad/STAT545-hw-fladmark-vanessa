@@ -4,7 +4,7 @@ Welcome to my repository!
 
 [Course site](http://stat545.com)
 
-![](https://i.pinimg.com/736x/d8/61/85/d861858071b1d19137f329191bd2f50b--tabby-cats-kitty-cats.jpg)
+![](https://s2.favim.com/orig/37/cats-pussy-sweet-Favim.com-306542.jpg)
 
 
 ![](https://media.giphy.com/media/bNBAQpqb4MSnS/giphy.gif)
