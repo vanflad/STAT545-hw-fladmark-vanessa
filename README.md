@@ -1,10 +1,10 @@
 # STAT545-hw01-fladmark-vanessa
 
-## Welcome to my repository!
+# Welcome to my repository!
 
-# A few things about me:
+## A few things about me:
 
-[Course site](http://stat545.com)
+[You can follow me on twitter!](https://twitter.com/FladmarkVanessa)
 
 ![](http://domesticcatworld.com/wp-content/uploads/2013/01/2-Tabby-cats.jpg)
 
