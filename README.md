@@ -8,7 +8,7 @@ I love the ocean, it's what I'm studying here at UBC!
 
 ![](https://media.giphy.com/media/3oz8xur099boo4N9aU/source.gif)
 
-[You can follow me on twitter where I chat about the ocean!](https://twitter.com/FladmarkVanessa)
+You can follow me on [twitter](https://twitter.com/FladmarkVanessa) where I chat about the ocean!
 
 I also love kitty cats!
 
