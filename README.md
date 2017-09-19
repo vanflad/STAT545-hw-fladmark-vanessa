@@ -2,4 +2,4 @@
 
 Welcome to my repository!
 
-[Course site](stat545.com)
+[Course site](www.stat545.com)
