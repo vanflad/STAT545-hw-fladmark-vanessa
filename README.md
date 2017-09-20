@@ -21,6 +21,6 @@ I *also* **love** kitty cats!
 - Get published
 - Finish ~~on time~~ in a reasonable amount of time
 
-A great instructor recently told me:
+#### A great instructor recently told me:
 >You should swear while using R,
-it really helps the process!
+it really helps with the process!
