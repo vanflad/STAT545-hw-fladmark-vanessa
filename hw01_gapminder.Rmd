@@ -3,3 +3,53 @@ title: "hw01_gapminder"
 output: github_document
 ---
 
+# Homework assignment #1
+
+## September 19th, 2017
+
+In this assignment I will:  
+1. Practice making a simple scatterplot  
+2. Load gapminder and tidyverse  
+3. Investigate a few ways to view gapminder dataframe  
+4. Make a couple graphs from the gapminder dataframe  
+
+### Scatterplot
+
+```{r, fig.width=5, fig.height=5}
+x <- rnorm(100)
+y <- rnorm(100)
+plot(x,y)
+```
+
+### Loading the packages
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+### Viewing the data
+
+```{r}
+summary(gapminder)
+
+dim(gapminder)
+
+summary(gapminder$continent)
+```
+
+### Plotting the data
+
+```{r}
+plot(lifeExp ~ log(gdpPercap), gapminder)
+```
+
+```{r}
+hist(gapminder$lifeExp)
+```
+
+```{r}
+barplot(table(gapminder$continent))
+```
+
+
