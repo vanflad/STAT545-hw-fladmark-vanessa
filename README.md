@@ -25,7 +25,7 @@ I *also* **love** kitty cats!
 >You should swear while using R,  
 it really helps with the process!
 
-#Homework Assignment 1
+# Homework Assignment 1
 
 ## ReadME file
 
@@ -47,4 +47,4 @@ it really helps with the process!
 - Used double space after each line to create the line breaks
 - The headers were easy and I committed and pushed to GitHub!
 
-# Aaaaand DONE!
+## Aaaaand DONE!
