@@ -20,3 +20,7 @@ I *also* **love** kitty cats!
 - Storm the wall
 - Get published
 - Finish ~~on time~~ in a reasonable amount of time
+
+A great instructor recently told me:
+>You should swear while using R,
+it really helps the process!
