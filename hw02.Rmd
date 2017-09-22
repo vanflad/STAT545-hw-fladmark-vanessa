@@ -1,0 +1,72 @@
+---
+title: "hw02"
+output: github_document
+---
+
+# Homework Assignment 2
+
+## September 26, 2017
+
+### Exploring Gapminder!
+
+#### First load gapminder and tidyverse to access dplyr
+```{r}
+library(gapminder)
+library(tidyverse)
+```
+
+#### "Smell testing" the data
+```{r}
+is.data.frame(gapminder)
+is.matrix(gapminder)
+is.vector(gapminder)
+is.list(gapminder)
+```
+Gapminder is a dataframe and also a list but not a matrix or vector
+
+```{r}
+class(gapminder)
+```
+Gapminder's class is a dataframe but also a "tibble"
+
+```{r}
+ncol(gapminder)
+```
+There are 6 columns/variables in the gapminder dataframe
+
+```{r}
+nrow(gapminder)
+```
+There are 1,704 observations/rows within gapminder
+
+```{r}
+str(gapminder)
+```
+The str() function can give the above information in one command!
+It also displays the data type of each variable where:
+- country and continent are factors
+- year and population are integers
+- life expectancy and gdp per capita are numbers
+
+```{r}
+as_tibble(gapminder) #columns, rows, data types
+head(gapminder) #columns, data types
+dim(gapminder) #columns and rows
+names(gapminder) #columns
+length(gapminder) #columns
+summary(gapminder) #columns
+```
+Some alternatives to find number of columns or number of rows
+As well as the different data types of the variables
+Summary could be very useful if you need max, mins and/or means
+
+#### Exploring individual variables
+
+
+
+#### Exploring various plot types
+
+
+
+#### Using filter(), select() and %>% 
+
