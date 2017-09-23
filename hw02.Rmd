@@ -136,10 +136,37 @@ Made a stripchart instead of a boxplot since I couldn't get the variable names t
 x <- gapminder %>%
   filter(country=="Canada") %>%
   select(year, pop) %>% 
-  plot(x, xlab = "year", ylab = "population")
+  plot(x, xlab = "year", ylab = "population", col = "purple", pch = 16)
 ```
 
+Utilized filter( ), select( ) and %>% to create a plot showing how Canada's population is increasing over time!
 
-Use filter( ) to create data subsets that you want to plot
+```{r}
+gapminder %>%
+  filter(continent=="Oceania") %>% 
+  select(country, year, gdpPercap) %>% 
+  ggplot(aes(x=year, y=gdpPercap)) %>% 
+  + geom_point(aes(color=country))
+```
 
-Practice piping together filter( ) and select( ); %>% in ggplot
+Fancy graph made by piping into ggplot and using many features!
+
+#### Even more!
+
+```{r}
+filter(gapminder, country == c("Rwanda", "Afghanistan"))
+```
+
+The code did not succeed in showing all values for Rwanda and Afghanistan but rather only half the data because no year is repeated, as it should be, showing all years for each region
+
+```{r}
+filter(gapminder, country == "Rwanda" | country == "Afghanistan")
+```
+
+This is the proper way to do it to obtain all 24 rows of data!
+
+```{r}
+knitr::kable(filter(gapminder, country == "Rwanda" | country == "Afghanistan"))
+```
+
+Presenting the table in a nicer way using knitr::kable( )
