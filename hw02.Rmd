@@ -116,11 +116,19 @@ From this scatterplot we can see that GDP per capita is increasing (with the exc
 
 ##### Plotting one quantitative variable
 
+```{r}
+ggplot(gapminder, aes(x=lifeExp)) + geom_density()
+```
 
+Density plot, which is a smoothed version of the above histogram!
 
-##### Boxplot (one quantitative, one categorical variable)
+##### Stripchart (one quantitative, one categorical variable)
 
+```{r}
+stripchart(gapminder$lifeExp ~ gapminder$continent, vertical=TRUE, method="jitter", jitter=0.1)
+```
 
+Made a stripchart instead of a boxplot since I couldn't get the variable names to fit! But as we saw in class, sometimes this data display can be more informative since it includes all data points.
 
 #### Using filter( ), select( ) and %>% 
 
