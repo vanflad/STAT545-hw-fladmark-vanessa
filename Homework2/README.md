@@ -25,14 +25,14 @@ It took many searches, commits, edits, deletions and frustration but I eventuall
 
 #### R Markdown coding
 
-Creating the RMarkdown file was fairly easy given the resources and skills both from this course and the Biol 501 course I'm also taking.
+Creating the RMarkdown file was fairly easy given the resources and skills both from this course and Biol 501.
 
 I did need to search how to create a density plot however but luckily [Rbloggers](https://www.r-bloggers.com/density-plot-with-ggplot/) 
-was there to show me the code for this type of graph.
+was there to show me the right code.
 
-I did also have to refer back to the class notes a lot to refine my figures and their code, especially for the ggplot and dplyr functions.
+I did also have to refer back to the class notes a lot to refine my figures and code, especially for ggplot and dplyr functions.
 
-I once forgot a bracket in a piece of code and couldn't figure out why I was getting an error message but I eventually found the problem!
+I once forgot a bracket in a piece of code and couldn't figure out why I was getting an error but I eventually solved it!
 
 #### Readme file
 
