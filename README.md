@@ -1,4 +1,4 @@
-# STAT545-hw01-fladmark-vanessa
+# STAT545-hw-fladmark-vanessa
 
 # Welcome to my repository!
 
