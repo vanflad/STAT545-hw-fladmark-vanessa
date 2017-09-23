@@ -47,4 +47,7 @@ it really helps with the process!
 - Used double space after each line to create the line breaks
 - The headers were easy and I committed and pushed to GitHub!
 
-## Aaaaand DONE!
+## Homework 2
+
+The Markdown file which is the easiest to read within github can be found [here!](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework2/hw02.md)
+The R Markdown file can also be found [here](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework2/hw02.Rmd) in the Homework 2 folder.
