@@ -9,7 +9,7 @@ output: github_document
 
 ### Exploring Gapminder!
 
-#### First load gapminder and tidyverse to access dplyr
+#### Bringing rectangular data in
 ```{r}
 library(gapminder)
 library(tidyverse)
@@ -62,11 +62,57 @@ Summary could be very useful if you need max, mins and/or means
 
 #### Exploring individual variables
 
+##### Starting with a categorical variable (continent)
+```{r}
+levels(gapminder$continent)
+```
+There are five possible values for the different continents
 
+```{r}
+summary(gapminder$continent)
+table(gapminder$continent) #another command, exact same result
+```
+Summary() shows how frequently each variable appears in dataset
+Where Africa has the most observations and Oceania the least
+
+```{r}
+barplot(summary(gapminder$continent), cex.names=0.8)
+```
+A visualization of the same information the summary table gave
+
+##### Then a quantitative variable (life expectancy)
+
+```{r}
+summary(gapminder$lifeExp)
+```
+For numerical data, summary() shows min, median, mean, max, etc.
+
+```{r}
+hist(gapminder$lifeExp)
+```
+A visual representation of numerical data is a frequency histogram
+Displays same info as summary but is easier to see distribution
 
 #### Exploring various plot types
+
+##### Scatterplot (two quantitative variables)
+
+```{r}
+plot(gapminder$year, gapminder$gdpPercap)
+```
+From this scatterplot we can see that GDP per capita is increasing
+(With the exception of a few outliers in the earlier years)
+
+##### Plotting one quantitative variable
+
+
+
+##### Boxplot (one quantitative, one categorical variable)
 
 
 
 #### Using filter(), select() and %>% 
 
+Use filter() to create data subsets that you want to plot
+
+Practice piping together filter() and select(); piping into ggplot
