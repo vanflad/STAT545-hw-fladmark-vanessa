@@ -25,7 +25,7 @@ is.vector(gapminder)
 is.list(gapminder)
 ```
 
-Gapminder is a dataframe and also a list but not a matrix or vector
+Gapminder is a dataframe and a list but not a matrix or vector
 
 ```{r}
 class(gapminder)
@@ -49,7 +49,7 @@ There are 1,704 observations/rows within gapminder
 str(gapminder)
 ```
 
-The str() function can give the above information in one command!
+The str( ) function can give the above information in one command!
 It also displays the data type of each variable where:
 country and continent are factors, 
 year and population are integers, 
@@ -81,7 +81,7 @@ summary(gapminder$continent)
 table(gapminder$continent) #another command, exact same result
 ```
 
-Summary() shows how frequently each variable appears in dataset
+Summary( ) shows how frequently each variable appears in dataset
 Where Africa has the most observations and Oceania the least
 
 ```{r}
@@ -96,7 +96,7 @@ A visualization of the same information the summary table gave
 summary(gapminder$lifeExp)
 ```
 
-For numerical data, summary() shows min, median, mean, max, etc.
+For numerical data, summary( ) shows min, median, mean, max, etc.
 
 ```{r}
 hist(gapminder$lifeExp)
@@ -122,8 +122,8 @@ From this scatterplot we can see that GDP per capita is increasing (with the exc
 
 
 
-#### Using filter(), select() and %>% 
+#### Using filter( ), select( ) and %>% 
 
-Use filter() to create data subsets that you want to plot
+Use filter( ) to create data subsets that you want to plot
 
-Practice piping together filter() and select(); piping into ggplot
+Practice piping together filter( ) and select( ); %>% in ggplot
