@@ -130,7 +130,15 @@ stripchart(gapminder$lifeExp ~ gapminder$continent, vertical=TRUE, method="jitte
 
 Made a stripchart instead of a boxplot since I couldn't get the variable names to fit! But as we saw in class, sometimes this data display can be more informative since it includes all data points.
 
-#### Using filter( ), select( ) and %>% 
+#### Using filter( ), select( ) and %>%
+
+```{r}
+x <- gapminder %>%
+  filter(country=="Canada") %>%
+  select(year, pop) %>% 
+  plot(x, xlab = "year", ylab = "population")
+```
+
 
 Use filter( ) to create data subsets that you want to plot
 
