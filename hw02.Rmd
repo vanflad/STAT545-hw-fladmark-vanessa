@@ -133,10 +133,10 @@ Made a stripchart instead of a boxplot since I couldn't get the variable names t
 #### Using filter( ), select( ) and %>%
 
 ```{r}
-x <- gapminder %>%
+myplot <- gapminder %>%
   filter(country=="Canada") %>%
-  select(year, pop) %>% 
-  plot(x, xlab = "year", ylab = "population", col = "purple", pch = 16)
+  select(year, pop)
+plot(myplot, xlab = "year", ylab = "population", col = "purple", pch = 16)
 ```
 
 Utilized filter( ), select( ) and %>% to create a plot showing how Canada's population is increasing over time!
@@ -170,3 +170,26 @@ knitr::kable(filter(gapminder, country == "Rwanda" | country == "Afghanistan"))
 ```
 
 Presenting the table in a nicer way using knitr::kable( )
+
+```{r}
+gapminder %>%
+  filter(year == 1992) %>%
+  mutate(logGdp = log10(gdpPercap)) %>% 
+  select(continent, lifeExp, logGdp) %>% 
+  ggplot(aes(x=logGdp, y=lifeExp)) %>% 
+  +geom_point(aes(color=continent))
+```
+
+Another, more detailed ggplot graph using an extra dplyr feature.
+
+```{r}
+gapminder %>%
+  group_by(continent) %>% 
+  select(continent, year, pop, gdpPercap) %>% 
+  mutate(popgain = pop - first(pop)) %>% 
+  filter(continent != "Asia") %>% 
+  ggplot(aes(x=gdpPercap, y=popgain)) %>% 
+  +geom_point(aes(color=continent))
+```
+
+More experimenting with graphs to investigate groupby( ) and to properly use the mutate( ) and first( ) dplyr functions. The graph shows sometimes population increases without gdp per capita (Africa) or vice versa that gdp per capita can grow without population increasing (Europe) or both can increase simultaneously (Americas) and Asia was not included since the scale was a lot larger and it lost the detail of the other four continents.
