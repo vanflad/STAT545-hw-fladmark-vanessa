@@ -6,7 +6,7 @@
 
 The Markdown file which is the easiest to read within github can be found [here!](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework2/hw02.md)  
 
-The R Markdown file can also be found [here](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework2/hw02.Rmd) in the Homework 2 folder.
+The R Markdown file can also be found [here](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework2/hw02.Rmd) in the [Homework 2 folder.](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework2)
 
 ## A few things about me:
 
