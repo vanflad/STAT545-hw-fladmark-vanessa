@@ -1,0 +1,129 @@
+---
+title: "hw02"
+output: github_document
+---
+
+# Homework Assignment 2
+
+## September 26, 2017
+
+### Exploring Gapminder!
+
+#### Bringing rectangular data in
+
+```{r}
+library(gapminder)
+library(tidyverse)
+```
+
+#### "Smell testing" the data
+
+```{r}
+is.data.frame(gapminder)
+is.matrix(gapminder)
+is.vector(gapminder)
+is.list(gapminder)
+```
+
+Gapminder is a dataframe and also a list but not a matrix or vector
+
+```{r}
+class(gapminder)
+```
+
+Gapminder's class is a dataframe but also a "tibble"
+
+```{r}
+ncol(gapminder)
+```
+
+There are 6 columns/variables in the gapminder dataframe
+
+```{r}
+nrow(gapminder)
+```
+
+There are 1,704 observations/rows within gapminder
+
+```{r}
+str(gapminder)
+```
+
+The str() function can give the above information in one command!
+It also displays the data type of each variable where:
+country and continent are factors, 
+year and population are integers, 
+and life expectancy and gdp per capita are numbers
+
+```{r}
+as_tibble(gapminder) #columns, rows, data types
+head(gapminder) #columns, data types
+dim(gapminder) #columns and rows
+names(gapminder) #columns
+length(gapminder) #columns
+summary(gapminder) #columns
+```
+
+Some alternatives to find number of columns or number of rows, as well as the different data types of the variables, summary could be very useful if you need max, mins and/or means
+
+#### Exploring individual variables
+
+##### Starting with a categorical variable (continent)
+
+```{r}
+levels(gapminder$continent)
+```
+
+There are five possible values for the different continents
+
+```{r}
+summary(gapminder$continent)
+table(gapminder$continent) #another command, exact same result
+```
+
+Summary() shows how frequently each variable appears in dataset
+Where Africa has the most observations and Oceania the least
+
+```{r}
+barplot(summary(gapminder$continent), cex.names=0.8)
+```
+
+A visualization of the same information the summary table gave
+
+##### Then a quantitative variable (life expectancy)
+
+```{r}
+summary(gapminder$lifeExp)
+```
+
+For numerical data, summary() shows min, median, mean, max, etc.
+
+```{r}
+hist(gapminder$lifeExp)
+```
+
+Visual representation of numerical data is a frequency histogram, displays same info as summary but is easier to see distribution
+
+#### Exploring various plot types
+
+##### Scatterplot (two quantitative variables)
+
+```{r}
+plot(gapminder$year, gapminder$gdpPercap)
+```
+
+From this scatterplot we can see that GDP per capita is increasing (with the exception of a few outliers in the earlier years)
+
+##### Plotting one quantitative variable
+
+
+
+##### Boxplot (one quantitative, one categorical variable)
+
+
+
+#### Using filter(), select() and %>% 
+
+Use filter() to create data subsets that you want to plot
+
+Practice piping together filter() and select(); piping into ggplot
