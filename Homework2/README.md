@@ -12,20 +12,20 @@ And the Markdown file with images embedded, [here!](https://github.com/vanflad/S
 
 #### Github troubles
 
-Honestly this was the toughest part of the entire assignment, trying to get all the necessary files into the Homework 2 subfolder!
+This was the toughest part of the assignment, trying to get all the necessary files into the Homework 2 subfolder!
 
-I tried to search google for how to move files, found out how to move some files into folders by editing the name and using / or backspace.
+I searched google for how to move files, I could move some files into folders by [editing the name](https://help.github.com/articles/moving-a-file-to-a-new-location/) and using /.
 
-But I struggled with being able to move the hw02_files that contained the uneditable figures needed for the Rmd and md files...
+But I couldn't move the hw02_files that contained the uneditable figures needed for the Rmd and md files...
 
-The solution was to manually upload the figures from my local computer into the folders that I (also manually) created with the same name 
+The solution was to manually upload the figures from my computer into the folders that I (also manually) created with the same name 
 "hw02_files/figure-markdown_github-ascii_identifiers" so the Rmd and md files knew where to refer to within the Homework 2 folder.
 
-It took a lot of searches, commits, edits, deletions and frustration but I eventually got everything I needed into that pesky folder!
+It took many searches, commits, edits, deletions and frustration but I eventually got everything into that folder!
 
 #### R Markdown coding
 
-Creating the RMarkdown file was fairly easy given the resources and skills both from this course and the Biol 501 R course I'm also taking.
+Creating the RMarkdown file was fairly easy given the resources and skills both from this course and the Biol 501 course I'm also taking.
 
 I did need to search how to create a density plot however but luckily [Rbloggers](https://www.r-bloggers.com/density-plot-with-ggplot/) 
 was there to show me the code for this type of graph.
