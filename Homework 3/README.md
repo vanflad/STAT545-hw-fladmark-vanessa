@@ -2,7 +2,7 @@
 
 ## October 3rd, 2017
 
-Markdown file can be found here and R Markdown file, here.
+Markdown file can be found [here](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%203/HW03.md) and R Markdown file, [here.](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%203/HW03.Rmd)
 
 ### Troubleshooting:
 
@@ -14,6 +14,6 @@ At first I couldn't figure out how to answer the "determine how many countries o
 
 How to [remove outliers and fix axis](https://stackoverflow.com/questions/5677885/ignore-outliers-in-ggplot2-boxplot) for ggplot boxplots!
 
-I needed to look up how to fix the error: "stat_count() must not be used with a y aesthetic" even though it's a problem I've encountered before, I forgot that the solution is to use the function [geom_bar(stat="identity")](https://stackoverflow.com/questions/39679057/r-ggplot2-stat-count-must-not-be-used-with-a-y-aesthetic-error-in-bar-graph/39679104)
+I needed to look up how to fix the error: "stat_count() must not be used with a y aesthetic" even though it's a problem I've encountered before, I forgot until Stack Overflow reminded me that the solution is to use the function [geom_bar(stat="identity")](https://stackoverflow.com/questions/39679057/r-ggplot2-stat-count-must-not-be-used-with-a-y-aesthetic-error-in-bar-graph/39679104)
 
-Also used geom_bar(position="dodge") function to get groups in barplot side by side rather than the stacked default, I was reminded how to do this from the ggplot cheatsheet, which is [super helpful!](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+Also used geom_bar(position="dodge") function to get groups in barplot side by side rather than the stacked default, I found the correct formatting on how to do this from the ggplot cheatsheet, which is [super helpful!](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
