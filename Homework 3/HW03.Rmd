@@ -1,0 +1,77 @@
+---
+title: "Homework 3"
+output: github_document
+---
+
+## October 3rd, 2017
+
+### First, always have to load the relevant libraries!
+
+```{r}
+library(tidyverse)
+library(gapminder)
+```
+
+### Maximum and minimum GDP per capita for all continents
+
+```{r}
+a <- gapminder %>%
+  group_by(continent) %>%
+  summarize(MaxGDP=max(gdpPercap), MinGDP=round(min(gdpPercap), 2), DiffGDP=max(gdpPercap)-min(gdpPercap))
+knitr::kable(a, format = "markdown")
+```
+
+```{r}
+a %>%
+  ggplot(aes(MaxGDP, MinGDP)) +
+  geom_point(aes(color=continent))
+```
+
+We can see here that Asia has the biggest discrepancy between a low minimum GDP and a high maximum GDP (also shown in the table!), Africa has the lowest difference because they have the lowest minimum *and* maximum GDP and Oceania also has a small discrepancy in GDP, where they have a much higher minimum GDP than other areas.
+
+### Spread of GDP per capita within the continents
+
+```{r}
+b <- gapminder %>%
+  group_by(continent) %>%
+  summarize(GDP_IQR=IQR(gdpPercap),GDP_SD=sd(gdpPercap), GDP_median_dev=mad(gdpPercap))
+knitr::kable(b, format = "markdown")
+```
+
+```{r}
+ggplot(gapminder, aes(continent, gdpPercap)) +
+  geom_boxplot(aes(color=continent))
+```
+
+<style type="text/css">
+.twoC {width: 100%}
+.clearer {clear: both}
+.twoC .table {max-width: 50%; float: right}
+.twoC img {max-width: 50%; float: left}
+</style>
+
+A boxplot showing the spread described by the above table.
+
+```{r}
+ ggplot(gapminder, aes(continent, gdpPercap)) +
+  geom_boxplot(outlier.shape = NA, aes(color=continent))+
+  scale_y_continuous(limits=quantile(gapminder$gdpPercap, c(0.1, 0.991)))
+```
+
+The same plot with extreme outliers removed to see the detail here.
+
+### Countries with low life expectancy over time by continent
+
+```{r}
+c <- gapminder %>%
+  group_by(continent, year) %>%
+  filter(lifeExp < 40) %>%
+  summarize(numcountries=n_distinct(country))
+knitr::kable(c, format="markdown")
+```
+
+```{r}
+ggplot(c, aes(year, numcountries)) +
+  geom_bar(aes(fill=continent), position="dodge", stat="identity")
+```
+
