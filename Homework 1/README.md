@@ -1,4 +1,4 @@
-(Homework Assignment 1)[https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%201/hw01_gapminder.md]
+[Homework Assignment 1](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%201/hw01_gapminder.md)
 
 ReadME file
 
