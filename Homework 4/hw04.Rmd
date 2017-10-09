@@ -1,9 +1,0 @@
----
-title: "HW04"
-output: github_document
----
-
-# Homework 4
-
-## October 10th, 2017
-
