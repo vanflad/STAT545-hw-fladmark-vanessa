@@ -1,0 +1,91 @@
+---
+title: "HW04"
+output: github_document
+---
+
+# Homework 4
+
+## October 10th, 2017
+
+### Part 1: Data reshaping
+
+
+
+### Part 2: Join, merge, look up
+
+#### Prompt choice: Activity 2
+
+Create own cheatsheet on how to use join's on the pets I've owned.
+
+```{r}
+suppressPackageStartupMessages(library(dplyr))
+
+pets <- "
+    name, breed, color
+Sheba, mutt, black
+Precious, Chesapeake-lab, black
+Vinnie, Chocolate lab, brown
+Dude, American longhair, orange
+Angel, American shorthair, orange(calico)
+Princess, American shorthair, orange(calico)
+Cheezy, American shorthair, orange(tortoiseshell)
+Loki, American longhair, white
+Misty, American shorthair, grey(tabby)
+Goldeen, Goldfish, orange
+Swordie, Swordtail, grey
+"
+pets <- read_csv(pets, trim_ws = TRUE, skip = 1)
+
+breeds <- "
+animal, breed, fur
+dog, Chesapeake-lab, short
+dog, Chocolate lab, short
+cat, American longhair, long
+cat, American shorthair, short
+fish, Goldfish, none
+fish, Swordtail, none
+fish, Guppy, none
+"
+breeds <- read_csv(breeds, trim_ws = TRUE, skip = 1)
+```
+
+First load the library and the two relevant dataframe files.
+
+I will be modelling this "cheatsheet" after Jenny's, utilizing the same variations of inner_join( ), left_join( ), full_join( ), semi_join( ) and anti_join( ) and investigating the order in which you attach the dataframes (i.e. "pets" first versus "breeds" first) since these are all the possible iterations of "join" to explore.
+
+Note: right_join( ) is another join function in dplyr but it has the opposite effect of left_join( ) and since order of dataframes is alternated, right_join( ) is omitted here for simplicity.
+
+##### inner_join(pets, breeds)
+
+
+
+##### semi_join(pets, breeds)
+
+
+
+##### left_join(pets, breeds)
+
+
+
+##### anti_join(pets, breeds)
+
+
+
+##### inner_join(breeds, pets)
+
+
+
+##### semi_join(breeds, pets)
+
+
+
+##### left_join(breeds, pets)
+
+
+
+##### anti_join(breeds, pets)
+
+
+
+##### full_join(breeds, pets)
+
