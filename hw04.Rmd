@@ -23,7 +23,7 @@ library(readr)
 
 pets <- "
 name, breed, color
-Sheba, mutt, black
+Sheba, Mutt, black
 Precious, Chesapeake-lab, black
 Vinnie, Chocolate lab, brown
 Dude, American longhair, orange
@@ -58,35 +58,106 @@ Note: right_join( ) is another join function in dplyr but it has the opposite ef
 
 ##### inner_join(pets, breeds)
 
+```{r}
+ijpb <- inner_join(pets, breeds, by="breed")
+knitr::kable(ijpb, format="markdown")
+```
 
+Inner join is a mutating join that returns all rows of x (pets) where there are matching values in y (breeds) and all columns.
+
+We see here that my dog Sheba disappears because there is no breed information for "mutts" of unknown origin in the breeds dataframe.
 
 ##### semi_join(pets, breeds)
 
+```{r}
+sjpb<- semi_join(pets, breeds, by="breed")
+knitr::kable(sjpb, format="markdown")
+```
 
+Semi join is a filtering join that returns all rows of x (pets) where there are matching values in y (breeds), and only x columns.
+
+It is similar to the previous inner join but omitting the columns of y (animal, fur) and only returning columns of x (name, color).
+
+Note: in Jenny's example, her row order had changed but mine have not in this case, so just keep in mind order changes *sometimes*.
 
 ##### left_join(pets, breeds)
 
+```{r}
+ljpb<- left_join(pets, breeds, by="breed")
+knitr::kable(ljpb, format="markdown")
+```
 
+Left join is a mutating join that returns all rows from x (pets) and all columns from both dataframes x (pets) and y (breeds).
+
+We can see that all values of x are present with the row for Sheba having filled in NA values, since there is no corresponding data in breeds for mutts even though she was indeed a short haired dog.
 
 ##### anti_join(pets, breeds)
 
+```{r}
+ajpb<- anti_join(pets, breeds, by="breed")
+knitr::kable(ajpb, format="markdown")
+```
 
+Anti join is a filtering join that returns all rows of x where there are no matching values in y, keeping just columns from x.
+
+In this case, it returns Sheba and her info from pets dataframe.
+
+This may be a helpful function to find rows with potential problems or NAs before using the other join functions to prevent the row being dropped/omitted without your knowledge of it!
 
 ##### inner_join(breeds, pets)
 
+Now we switch the order of x and y to (breeds, pets) and repeat!
 
+```{r}
+ijbp<- inner_join(breeds, pets, by="breed")
+knitr::kable(ijbp, format="markdown")
+```
+
+Again, inner join is a mutating join, and if there are multiple matches between x and y, all combinations of matches are returned.
+
+What it means by that is that for each breed type found in x, every separate pet classified in that breed in y is returned.
+
+In this example, the order of the rows was rearranged because the cats are now grouped by their breed instead of randomly scattered.
 
 ##### semi_join(breeds, pets)
 
+```{r}
+sjbp<- semi_join(breeds, pets, by="breed")
+knitr::kable(sjbp, format="markdown")
+```
 
+Reminder: semi join is a filtering join that returns rows from x that have matching values of y but only returns the columns of x.
+
+Therefore it is simply x (breeds, in this case) with the exception of Guppy fish, since I've never owned one and is not in y (pets).
 
 ##### left_join(breeds, pets)
 
+```{r}
+ljbp<- left_join(breeds, pets, by="breed")
+knitr::kable(ljbp, format="markdown")
+```
 
+Again, left join is a mutating join that returns all rows of x (breeds) and all columns of both x (breeds) and y (pets).
+
+Here, it is similar to inner_join(breeds,pets) above, but with the addition of the Guppy row with filled in NAs for y (pets) columns.
 
 ##### anti_join(breeds, pets)
 
+```{r}
+ajbp<- anti_join(breeds, pets, by="breed")
+knitr::kable(ajbp, format="markdown")
+```
 
+Reminder: anti join is a filtering join that returns rows of x that do *not* have matching values in y, and only columns of x.
+
+As before, it returns the often tricky, non-matching rows and its corresponding values, in this case, it is Guppy information data.
 
 ##### full_join(breeds, pets)
+
+This is the final join, where the order of x and y don't matter for the data included but for the arrangement of the rows/columns.
+
+```{r}
+fjbp<- full_join(breeds, pets, by="breed")
+knitr::kable(fjbp, format="markdown")
+```
 
