@@ -9,42 +9,50 @@ output: github_document
 
 ### Part 1: Data reshaping
 
-#### Prompt choice: Activity 2
-
-Make a tibble with one row per year and columns for life expectancy for two or more countries.
-
-```{r}
-library(tidyverse)
-```
-
-First step is always to load the relevant library.
-
-```{r}
-#mydata <- gapminder %>%
-  
-```
-
-delete?
-
 #### Prompt choice: Activity 3
 
 Compute some measure of life expectancy for all possible combinations of continent and year then reshape!
 
 ```{r}
 library(tidyverse)
-#install.packages(gapminder)
-#library(gapminder)
+library(gapminder)
 ```
 
 First step is always to load the relevant libraries!
 
 ```{r}
-#mydata <- gapminder %>%
-#  group_by(continent, year) %>%
-#  summarize(meanlifeExp=mean(lifeExp))
+mydata <- gapminder %>%
+  group_by(continent, year) %>%
+  summarize(meanlifeExp=mean(lifeExp))
 ```
 
-delete?
+Second step is to summarize the data to compute the mean.
+
+```{r}
+mydata %>%
+  ggplot(aes(year, meanlifeExp))+
+  geom_bar(stat="identity", aes(fill=continent), position="dodge")
+```
+
+A graph with the initial grouped data before reshaping, showing change in life expectancy mean over time.
+
+```{r}
+yeardata <- mydata %>%
+  spread(key = "continent", value = "meanlifeExp")
+knitr::kable(yeardata, format="markdown")
+```
+
+First, a table with a row for each year and mean life expectancy value for each continent.
+
+```{r}
+contdata <- mydata %>%
+  spread(key = "year", value = "meanlifeExp")
+knitr::kable(contdata, format="markdown")
+```
+
+Second, the other way around, a table with a row for each continent and mean life expectancy value for each year!
+
+I genuinely can't think of an appropriate plot that is easier to make given the reshaped dataset. This is due to my previous experience working with large datasets and finding creative ways to work with those and not yet having experience in plotting reshaped and manipulated datasets, which I'm sure we will cover in future classes!
 
 ### Part 2: Join, merge, look up
 
