@@ -154,10 +154,13 @@ As before, it returns the often tricky, non-matching rows and its corresponding 
 
 ##### full_join(breeds, pets)
 
-This is the final join, where the order of x and y don't matter for the data included but for the arrangement of the rows/columns.
+This is the final join, where the order of x and y don't matter for the data included (because everything is included) but the order of x and y does matter for the arrangement of the order of the rows and columns.
 
 ```{r}
 fjbp<- full_join(breeds, pets, by="breed")
 knitr::kable(fjbp, format="markdown")
 ```
 
+Full join is a mutating join that returns all rows and all columns from both x and y and when there are not matching values in the dataframes, NAs are created.
+
+We observe this at the bottom of the above resulting table where the rows with NAs are placed, preceeded by the rows that do have the required matching values.
