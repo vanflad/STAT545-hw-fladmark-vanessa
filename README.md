@@ -9,7 +9,7 @@
 | :one:[Homework01](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/hw01_gapminder.md) | September 19, 2017 |:white_check_mark:Finished    |
 | :two:[Homework02](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework2) | September 26, 2017 |:white_check_mark:Finished    |
 | :three:[Homework03](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%203)| October 3, 2017   |:white_check_mark:Finished    |
-| :four:[Homework04](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%204)| October 10, 2017   |In Progress    |
+| :four:[Homework04](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%204)| October 10, 2017   |:white_check_mark:Finished    |
 
 ## A few things about me:
 
