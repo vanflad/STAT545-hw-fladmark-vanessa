@@ -45,7 +45,7 @@ levels(newgap$continent)
 
 Filter out Oceania, then check to see if it worked, we can see there are now 0 Oceania values but it remains a factor level.
 
-Note: I assigned the filtered gapminder data to a new dataframe "newgap" to assist in the comparisons between newgap and the original gapminder dataset later on in this assignment.
+Note: I assigned the filtered gapminder data to a new dataframe "newgap" to assist in the comparisons between newgap and the original gapminder dataset and to write out the newgap data as its own file, both of which occur later on in this assignment.
 
 ***
 
@@ -111,8 +111,9 @@ knitr::kable(maxgap, format="markdown")
 I will **reorder my factors** according to which continents have the highest life expectancy, i.e. who lives the longest.
 
 ```{r Reorder levels}
-fct_reorder(newgap$continent, newgap$lifeExp, max, .desc=TRUE) %>%
+newgap <- fct_reorder(newgap$continent, newgap$lifeExp, max, .desc=TRUE) %>%
   levels()
+#*****shit's fucked up, I gotta fix laterrrrr *****
 ```
 
 I've previously done factor reordering with this type of code:
@@ -123,12 +124,37 @@ to manually rearrange the levels, the numbers indicating the previous ordering, 
 
 ### File I/O
 
+Experiment with one or more of write_csv()/read_csv(), saveRDS()/readRDS(),  dput()/dget(). Create something new, probably by filtering or grouped-summarization of ~~Singer or~~ Gapminder. It's highly recommend to fiddle with the factor levels, i.e. make them non-alphabetical (which I did above). Explore whether this survives the round trip of writing to file then reading back in.
+
 ```{r}
 #write data out
 write_csv(newgap, "newgap.csv")
 
 #read data back in
-#newgap <- read_csv(newgap.csv)
+newgap <- read_csv("newgap.csv")
+
+#does it remain a factor variable?
+class(newgap$continent)
+
+#change it to factor
+newgap$continent <- as.factor(newgap$continent)
+
+#check the levels
+levels(newgap$continent)
+```
+
+I've chose not to put {r message=FALSE} here since the output message from read_csv tells us that continent is by default written as characters rather than as factors, which means we lost the reordering of the levels and it is alphabetical.
+
+```{r}
+saveRDS(newgap, "newgap.rds")
+rm(newgap)
+newgap <- readRDS("newgap.rds")
+str(newgap)
+```
+
+```{r}
+dput(newgap, "newgap.txt")
+newgap <- dget("newgap.txt")
 ```
 
 
