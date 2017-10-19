@@ -9,6 +9,8 @@ output: github_document
 
 ### Factor management
 
+#### Libraries
+
 **Load the necessary libraries**, with suppresed messages:
 
 ```{r Load libraries}
@@ -23,6 +25,8 @@ library(forcats)
 ```
 
 ***
+
+#### Filter
 
 **Filter the gapminder data** to remove observations associated with the continent of Oceania:
 
@@ -43,6 +47,8 @@ Note: I assigned the filtered gapminder data to a new dataframe "newgap" to assi
 
 ***
 
+#### Factors
+
 For now, let's **remove the unused factor level** Oceania:
 
 ```{r Drop levels}
@@ -59,6 +65,8 @@ levels(newgap$continent)
 In my own data analysis I've dropped unusued levels by changing the factor to a character, where "Oceania" is not found and then changing it back to a factor to attain the new levels. But as with all data manipulation and coding problems, there are other solutions that can be used, such as droplevels() or fct_drop().
 
 ***
+
+#### Information
 
 Provide concrete **information on the data** before and after removing these rows and Oceania; address the number of rows and the levels of the affected factors:
 
@@ -82,6 +90,8 @@ nlevels(newgap$continent)
 Comparing the original and the filtered data we see that there are 24 rows of Oceania values that were removed. (And even though I could have mentally figured out that 1704-1680=24, I still decided to make R do the hard work for us!) Also we see that we went from 5 levels to 4, with the continents Americas, Asia, Africa and Europe remaining after the removal of Oceania.
 
 ***
+
+#### Reorder
 
 Reorder the levels of country or continent. Use the forcats package to change the order of the factor levels, based on a principled summary of one of the quantitative variables. Consider experimenting with a **summary statistic** beyond the most basic choice of the median:
 
@@ -119,11 +129,13 @@ to manually rearrange the levels, the numbers indicating the previous ordering, 
 
 I've decided to add this section to the Markdown file itself as per homework suggestions for simplicity and organization.
 
+Links I found helpful for [Reorder](#anchor) section of HW:
+  
 * Knitr::kable(data, format="markdown") reminder on syntax
       + [rdrr.io website](https://rdrr.io/cran/knitr/man/kable.html)
 * Use of forcats for rearranging factor levels
       + STAT545 website - [be the boss of your factors](http://stat545.com/block029_factors.html)
 * How to quote R code without running it
       + [R Markdown from RStudio](http://rmarkdown.rstudio.com/lesson-8.html)
-* How to do other fancy Markdown things! i.e. how to insert breaks, lists, links, etc.
+* From the last link I also found how to do other fancy Markdown things! Such as how to insert breaks, lists, links, how to jump to headers, etc. This will likely be a really useful resource for the future!
       + [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
