@@ -129,7 +129,7 @@ to manually rearrange the levels, the numbers indicating the previous ordering, 
 
 I've decided to add this section to the Markdown file itself as per homework suggestions for simplicity and organization.
 
-Links I found helpful for [Reorder](#anchor) section of HW:
+Links I found helpful for [Reorder](#Reorder) section of HW:
   
 * Knitr::kable(data, format="markdown") reminder on syntax
       + [rdrr.io website](https://rdrr.io/cran/knitr/man/kable.html)
