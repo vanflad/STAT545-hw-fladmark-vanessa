@@ -1,0 +1,30 @@
+---
+title: "hw05"
+output: github_document
+---
+
+# Homework 5
+
+## October 20th, 2017
+
+### Factor management
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+library(gapminder)
+```
+
+Load the libraries, with suppresed messages for tidyverse.
+
+```{r}
+newgap <- filter(gapminder, continent != "Oceania")
+head(newgap$continent)
+which(newgap$continent=="Oceania")
+```
+
+
+### File I/O
+
+### Visualization design
+
+### Writing figures to file
