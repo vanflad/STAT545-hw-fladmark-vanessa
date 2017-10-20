@@ -9,3 +9,7 @@ Link to [Markdown](insert later) for easy viewing
 Link to [R Markdown](insert later) for more detail
 
 Troubleshooting section is now within the assignment itself.
+
+### And we are done with STAT545!
+
+![](https://assets.rbl.ms/10331170/980x.gif)
