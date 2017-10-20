@@ -64,7 +64,7 @@ newgap$continent <- as.factor(newgap$continent)
 levels(newgap$continent)
 ```
 
-In my own data analysis I've dropped unusued levels by changing the factor to a character, where "Oceania" is not found and then changing it back to a factor to attain the new levels. But as with all data manipulation and coding problems, there are other solutions that can be used, such as droplevels() or fct_drop().
+In my own data analysis I've dropped unusued levels by changing the factor to a character, where "Oceania" is not found and then changing it back to a factor to attain the new levels. But as with all data coding problems, there are other solutions that can be used, such as droplevels( ) or fct_drop( ).
 
 ***
 
@@ -110,23 +110,32 @@ knitr::kable(maxgap, format="markdown")
 
 I will **reorder my factors** according to which continents have the highest life expectancy, i.e. who lives the longest.
 
-```{r Reorder levels}
-newgap <- fct_reorder(newgap$continent, newgap$lifeExp, max, .desc=TRUE) %>%
-  levels()
-#*****shit's fucked up, I gotta fix laterrrrr *****
+```{r Fix here}
+#fct_reorder(newgap$continent, newgap$lifeExp, max, .desc=TRUE) #%>%
+#  levels() %>%
+#  fct_recode()
+#***** need to fix this shit! *****
+#fct_recode(newgap$continent, fct_reorder(newgap$continent, #newgap$lifeExp, max, .desc=TRUE) %>%
+#  levels())
+#***** DELETE AND/OR REWRITE STUUUUUFF! *****
+#newgap %>%
+#  fct_recode(levels(continent), fct_reorder(continent, #lifeExp, max, .desc=TRUE) %>%
+#  levels())
 ```
 
 I've previously done factor reordering with this type of code:
 
-`newgap$continent <- factor(newgap$continent, levels(newgap$continent)[c(3, 4, 2, 1)])`
+```{r Reorder levels}
+newgap$continent <- factor(newgap$continent, levels(newgap$continent)[c(3, 4, 2, 1)])
+```
 
-to manually rearrange the levels, the numbers indicating the previous ordering, which is why I thought I needed the table to find what order the new levels needed to be in. However, forcats does it all automatically for me! Table not needed but I still find helpful for confirming it is in the correct order.
+~~to manually rearrange the levels, the numbers indicating the previous ordering, which is why I thought I needed the table to find what order the new levels needed to be in. However, forcats does it all automatically for me! Table not needed but I still find helpful for confirming it is in the correct order.~~ ***** rewrite *****
 
 ### File I/O
 
-Experiment with one or more of write_csv()/read_csv(), saveRDS()/readRDS(),  dput()/dget(). Create something new, probably by filtering or grouped-summarization of ~~Singer or~~ Gapminder. It's highly recommend to fiddle with the factor levels, i.e. make them non-alphabetical (which I did above). Explore whether this survives the round trip of writing to file then reading back in.
+Experiment with one or more of write_csv( )/read_csv( ), saveRDS( )/readRDS( ),  dput( )/dget( ). Create something new, probably by filtering or grouped-summarization of ~~Singer or~~ Gapminder. It's highly recommend to fiddle with the factor levels, i.e. make them non-alphabetical (which I did above). Explore whether this survives the round trip of writing to file then reading back in:
 
-```{r}
+```{r CSV files}
 #write data out
 write_csv(newgap, "newgap.csv")
 
@@ -145,22 +154,54 @@ levels(newgap$continent)
 
 I've chose not to put {r message=FALSE} here since the output message from read_csv tells us that continent is by default written as characters rather than as factors, which means we lost the reordering of the levels and it is alphabetical.
 
-```{r}
+```{r RDS files}
+#reorder levels again
+newgap$continent <- factor(newgap$continent, levels(newgap$continent)[c(3, 4, 2, 1)])
+
+#write/save to file
 saveRDS(newgap, "newgap.rds")
+
+#remove newgap to make sure it's gone
 rm(newgap)
+
+#read/open file
 newgap <- readRDS("newgap.rds")
-str(newgap)
+
+#is it a factor or character now?
+class(newgap$continent)
+
+#check the levels!
+levels(newgap$continent)
 ```
 
-```{r}
+We can see here that RDS does indeed retain the level order.
+
+```{r TXT files}
+#lets try one more! write out
 dput(newgap, "newgap.txt")
+
+#read back in
 newgap <- dget("newgap.txt")
+
+#check them levels
+levels(newgap$continent)
 ```
 
+Also, I attempted dput and dget, which keeps level order too!
 
 ### Visualization design
 
+```{r Vis design}
+
+```
+
+
 ### Writing figures to file
+
+```{r Write figures}
+
+```
+
 
 ### Troubleshooting
 
@@ -178,3 +219,5 @@ I've decided to add this section to the Markdown file itself as per homework sug
       + [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 * How to write data out into a CSV file
       + STAT545 website - [Getting data in and out of R](http://stat545.com/block026_file-out-in.html)
+      
+I hope you enjoyed and understood my homework, I tried to maximize comments, clarity and organization here today!
