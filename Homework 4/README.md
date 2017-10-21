@@ -2,7 +2,12 @@
 
 ## October 10th, 2017
 
+### Tidy data and joins
+[Link to the STAT545 homework website!](http://stat545.com/hw04_tidy-data-joins.html)
+
 [Markdown file](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%204/hw04.md)
+
+[R Markdown file](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%204/hw04.Rmd)
 
 ### Troubleshooting and Links
 
