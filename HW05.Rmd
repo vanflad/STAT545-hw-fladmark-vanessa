@@ -192,10 +192,73 @@ Also, I attempted dput and dget, which keeps level order too!
 
 ### Visualization design
 
-```{r Vis design}
+First we need to decide what to graph! Again, I'll focus on maximum life expectancy, investigating differences within the Americas.
 
+```{r Data set-up}
+#filter to Americas only, calculate max life exp
+amgap <- newgap %>%
+  filter(continent=="Americas") %>%
+  group_by(country, year) %>%
+  summarize(maxlife=max(lifeExp))
+
+#find countries with highest max life exp
+newmaxgap <- amgap %>%
+  group_by(country) %>%
+  filter(year==2007, maxlife>78)
+
+#make a table of the above results
+knitr::kable(newmaxgap, format = "markdown")
 ```
 
+I'll be graphing the 6 highest max life expectancies and I decided on that because I wanted to include the US but it wasn't in the top 5!
+
+```{r Initial graph}
+#filter to relevant countries decided above
+gap <- amgap %>%
+  filter(country %in% newmaxgap$country)
+
+#create initial plot
+ggplot(gap, aes(year, maxlife))+
+  geom_path(aes(colour=country))
+```
+
+We can see here that Canada and the US have been steadily increasing over time and other developing countries with originally lower values see a steeper increase in life expectancy and they "catch up" with our countries as they also become more developed, surpassing the US.
+
+However, this initial graph can be improved with level reordering!
+
+"Explore the effects of arrange( ).  
+Does merely arranging the data have any effect on, say, a figure?"
+
+```{r}
+gap %>%
+  arrange(desc(maxlife)) %>%
+  ggplot(aes(year, maxlife))+
+  geom_path(aes(color=country))
+```
+
+The answer is no! The graph colors are the same and now the lines even zig-zag in a strange way, this is not the right way to reorder!
+
+```{r}
+ggplot(gap, aes(year, maxlife))+
+  geom_path(aes(color=fct_reorder2(country, year, maxlife)))+
+  labs(color="country")
+```
+
+This is one of the ways to reorder factors right within ggplot! I find it more helpful to see the trends here. Let's improve more:
+
+```{r}
+ggplot(gap, aes(year, maxlife))+
+  geom_path(aes(color=fct_reorder2(country, year, maxlife)), size=0.75)+
+  theme_classic()+
+  labs(color="Country", title="High Life Expectancy in the Americas", x="Year", y="Maximum Life Expectancy")
+```
+
+The new improved graph! Now with:
+
+* Factors reordered
+* Thicker lines
+* A classier theme
+* Labels!
 
 ### Writing figures to file
 
