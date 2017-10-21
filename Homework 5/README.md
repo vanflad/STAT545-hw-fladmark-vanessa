@@ -4,7 +4,7 @@
 
 ### Factor and figure management; Repo hygiene
 
-Link to [Markdown](insert later) for easy viewing
+Link to [Markdown](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%205/HW05.md) for easy viewing
 
 Link to [R Markdown](insert later) for more detail
 
