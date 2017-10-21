@@ -1,6 +1,6 @@
 # Homework Assignment 2!
 
-# Explore Gapminder and use dplyr
+# [Explore Gapminder and use dplyr](http://stat545.com/hw02_explore-gapminder-dplyr.html)
 
 ## Due Tuesday, September 26th, 2017
 
