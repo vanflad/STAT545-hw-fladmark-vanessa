@@ -12,6 +12,6 @@ Link to [R Markdown](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob
 
 Troubleshooting section is now within the assignment itself.
 
-### And we are done with STAT545! ::thumbs up::
+### And we are done with STAT545!
 
 ![Woohoo!](https://assets.rbl.ms/10331170/980x.gif)
