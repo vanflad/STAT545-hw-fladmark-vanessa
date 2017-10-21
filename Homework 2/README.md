@@ -1,5 +1,7 @@
 # Homework Assignment 2!
 
+# Explore Gapminder and use dplyr
+
 ## Due Tuesday, September 26th, 2017
 
 ### Links to files
