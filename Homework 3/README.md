@@ -2,7 +2,8 @@
 
 ## October 3rd, 2017
 
-### [Use dplyr to manipulate and explore data (also use ggplot2)](http://stat545.com/hw03_dplyr-and-more-ggplot2.html)
+### Use dplyr to manipulate and explore data (also use ggplot2)
+[Link to the STAT545 homework website!](http://stat545.com/hw03_dplyr-and-more-ggplot2.html)
 
 Markdown file can be found [here](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%203/HW03.md) and R Markdown file, [here.](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%203/HW03.Rmd)
 
