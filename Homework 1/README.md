@@ -1,8 +1,12 @@
 # Homework Assignment 1
 
+## Edit README.md and Use R Markdown
+
 [Markdown file](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%201/hw01_gapminder.md)
 
-## ReadME file
+[R Markdown file](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%201/hw01_gapminder.Rmd)
+
+### ReadME file
 
 Edited with GitHub since it seemed easier
 But it resulted in a lot of commits
@@ -10,7 +14,7 @@ I couldn't get some of the gifs and pictures to work
 But with trial and error I found ones that looked nice
 I'm overall very happy with the cool looking file!
 
-## R Markdown file
+### R Markdown file
 
 Edited with RStudio because it was easier
 Getting the repo into RStudio was difficult
