@@ -1,6 +1,7 @@
 # Homework Assignment 1
 
 ## Edit README.md and Use R Markdown
+[Link to STAT545 homework website!](http://stat545.com/hw01_edit-README.html)
 
 [Markdown file](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/Homework%201/hw01_gapminder.md)
 
