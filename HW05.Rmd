@@ -229,7 +229,7 @@ However, this initial graph can be improved with level reordering!
 "Explore the effects of arrange( ).  
 Does merely arranging the data have any effect on, say, a figure?"
 
-```{r}
+```{r Arranged graph}
 gap %>%
   arrange(desc(maxlife)) %>%
   ggplot(aes(year, maxlife))+
@@ -238,7 +238,7 @@ gap %>%
 
 The answer is no! The graph colors are the same and now the lines even zig-zag in a strange way, this is not the right way to reorder!
 
-```{r}
+```{r Reordered graph}
 ggplot(gap, aes(year, maxlife))+
   geom_path(aes(color=fct_reorder2(country, year, maxlife)))+
   labs(color="country")
@@ -246,7 +246,7 @@ ggplot(gap, aes(year, maxlife))+
 
 This is one of the ways to reorder factors right within ggplot! I find it more helpful to see the trends here. Let's improve more:
 
-```{r}
+```{r Designed graph}
 ggplot(gap, aes(year, maxlife))+
   geom_path(aes(color=fct_reorder2(country, year, maxlife)), size=0.75)+
   theme_classic()+
@@ -262,10 +262,23 @@ The new improved graph! Now with:
 
 ### Writing figures to file
 
-```{r Write figures}
+Use ggsave( ) to explicitly save a plot to file, then load and embed it in your report and play around with various options:
 
+```{r Figure JPG}
+ggsave("high-life-exp-am.jpg")
 ```
 
+![Here is the JPG of the graph!]("high-life-exp-am.jpg")
+
+Jpg's are raster files and are smaller files, useful for digital screen resolution, so can be used in emails, presentations, etc.
+
+```{r Figure PDF}
+ggsave("high-life-exp-am.pdf")
+```
+
+![Here is the PDF graph!]("high-life-exp-am.pdf")
+
+PDF's are a type of vector file format and is a larger file size and higher resolution so it can printed on a large poster and/or resized.
 
 ### Troubleshooting
 
@@ -283,5 +296,7 @@ I've decided to add this section to the Markdown file itself as per homework sug
       + [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 * How to write data out into a CSV file
       + STAT545 website - [Getting data in and out of R](http://stat545.com/block026_file-out-in.html)
+* How to optimize exporting and re-importing figures
+      + STAT545 website - [Writing figures to file](http://stat545.com/block017_write-figure-to-file.html#graphics-devices)
       
 I hope you enjoyed and understood my homework, I tried to maximize comments, clarity and organization here today!
