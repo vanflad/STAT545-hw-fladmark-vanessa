@@ -6,11 +6,11 @@
 
 |    **Item**     |    **Topic**     | **Due Date**          | **status** |
 |-----------------|-----------------|-----------------------|------------|
-| :one:[Homework01](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/blob/master/hw01_gapminder.md) | README.md & R Markdown | September 19, 2017 |:white_check_mark:Finished    |
-| :two:[Homework02](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework2) | Explore Gapminder | September 26, 2017 |:white_check_mark:Finished    |
+| :one:[Homework01](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%201) | README.md & R Markdown | September 19, 2017 |:white_check_mark:Finished    |
+| :two:[Homework02](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%202) | Explore Gapminder & Dplyr | September 26, 2017 |:white_check_mark:Finished    |
 | :three:[Homework03](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%203)| Dplyr: Explore & Manipulate | October 3, 2017   |:white_check_mark:Finished    |
 | :four:[Homework04](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%204)| Tidy Data & Joins | October 10, 2017   |:white_check_mark:Finished    |
-| :five:[Homework05](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%205)| Factor & Fig. Management | October 20, 2017   | in progress!    |
+| :five:[Homework05](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%205)| Factor & Fig. Management | October 20, 2017   |:white_check_mark:Finished    |
 
 ## A few things about me:
 
