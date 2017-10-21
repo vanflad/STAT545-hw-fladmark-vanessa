@@ -276,7 +276,7 @@ Use ggsave( ) to explicitly save a plot to file, then load and embed it in your 
 ggsave("high-life-exp-am.jpg")
 ```
 
-![Here is the JPG of the graph!]("high-life-exp-am.jpg")
+![Here is the JPG of the graph!](high-life-exp-am.jpg)
 
 Jpg's are raster files and are smaller files, useful for digital screen resolution, so can be used in emails, presentations, etc.
 
@@ -284,7 +284,7 @@ Jpg's are raster files and are smaller files, useful for digital screen resoluti
 ggsave("high-life-exp-am.pdf")
 ```
 
-![Here is the PDF graph!]("high-life-exp-am.pdf")
+![Here is the PDF graph!](high-life-exp-am.pdf)
 
 PDF's are a type of vector file format and is a larger file size and higher resolution so it can printed on a large poster and/or resized.
 
@@ -304,7 +304,7 @@ I've decided to add this section to the Markdown file itself as per homework sug
       + [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 * How to write data out into a CSV file
       + STAT545 website - [Getting data in and out of R](http://stat545.com/block026_file-out-in.html)
-* How to optimize exporting and re-importing figures
-      + STAT545 website - [Writing figures to file](http://stat545.com/block017_write-figure-to-file.html#graphics-devices)
+* How to imbed an image in R Markdown file (I kept getting an error)
+      + "Markdown Cheatsheet" someone made on [Github!](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
       
 I hope you enjoyed and understood my homework, I tried to maximize comments, clarity and organization here today!
