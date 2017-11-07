@@ -1,7 +1,7 @@
 all: words.en.length
 
 clean:
-		rm -f words.en.txt words.en.length words.en.html
+		rm -f words.en.txt words.en.html
 
 words.en.crlf.txt:
 		curl -o words.en.text http://www-01.sil.org/linguistics/wordlists/english/wordlist/wordsEn.txt

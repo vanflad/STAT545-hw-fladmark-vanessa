@@ -9,7 +9,8 @@ library(tidyverse)
 ```
 
 ```{r read-data}
-en <- read_tsv("words.en.length", colnames = "Length")
+en <- read_tsv("words.en.length")
+							 #, colnames = "Length")
 #gets an error message and I have no idea how it works.
 ```
 
