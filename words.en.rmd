@@ -1,0 +1,18 @@
+---
+title: "distribution of english word lengths"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r read-data}
+en <- read_tsv("words.en.length", colnames = "Length")
+```
+
+```{r}
+ggplot(en) + aes(x= Length) + geom_histogram(binwidth = 1)
+```
+
