@@ -10,9 +10,11 @@ library(tidyverse)
 
 ```{r read-data}
 en <- read_tsv("words.en.length", colnames = "Length")
+#gets an error message and I have no idea how it works.
 ```
 
 ```{r}
 ggplot(en) + aes(x= Length) + geom_histogram(binwidth = 1)
 ```
 
+http://sjackman.ca/makefile-example links for this exercise!
