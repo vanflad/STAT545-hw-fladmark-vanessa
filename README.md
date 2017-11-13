@@ -1,4 +1,4 @@
-# STAT545-hw-fladmark-vanessa
+# STAT547-hw-fladmark-vanessa
 
 # Welcome to my repository!
 
@@ -9,7 +9,7 @@
 | :one:[Homework06](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%206) | Data Wrangling Wrap Up | November 10, 2017 |:white_check_mark:Finished    |
 | :one:[Homework07](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%201) | Data Analysis Pipeline | November 14, 2017 |In progress!   |
 
-## 545 Homework Links:
+## 545 Previous Homework Links:
 
 |    **Item**     |    **Topic**     | **Due Date**          | **status** |
 |-----------------|-----------------|-----------------------|------------|
