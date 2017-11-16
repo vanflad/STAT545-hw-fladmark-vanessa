@@ -76,3 +76,4 @@ The last and [final R script](https://github.com/vanflad/STAT547-hw-fladmark-van
 * How to [add a linear model to a plot](https://stackoverflow.com/questions/15633714/adding-a-regression-line-on-a-ggplot) without using `geom_smooth(method="lm")` since we want it by entire continent not fit to each of the facetted countries!
 *And that's about it for this one, I found some parts tricky (fct_reorder was the bane of my existence for a few hours) and the entire thing time consuming (as always!)
 *What I especially didn't like was that I couldn't get the second table to say "Table 2:..." in the caption because kable_as_image always saves it as "Table 1:..." because there's only one table being saved at a time but if you integrate this method straight into RMarkdown, it will have the correct numbering system!
+*Oh and I couldn't figure out how to remove files with an Rscript alone so I removed extra files manually (oops?)
