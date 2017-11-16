@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510803964006.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CD8B5229",
+    "lastKnownWriteTime" : 1510803954,
+    "last_content_update" : 1510803954,
+    "path" : "~/STAT547-hw-fladmark-vanessa/Makefile",
+    "project_path" : "Makefile",
+    "properties" : {
+        "cursorPosition" : "4,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "makefile"
+}
