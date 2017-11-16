@@ -63,7 +63,7 @@ Honestly, I'm not familiar enough with Africa to know any of these countries but
 
 ## Automate the pipeline
 
-The last and [final R script](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%207/hw07-master.R) ran the first three R scripts, rendered this document to github and removed all the excess files floating around the folder!
+The last and [final R script](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%207/hw07-master.R) ran the first three R scripts, and rendered this document to github which was a really neat process! I think I may integrate a cool pipeline like this into my own research analysis!
 
 ## Troubleshooting/Links
 
