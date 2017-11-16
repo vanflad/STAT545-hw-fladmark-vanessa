@@ -6,8 +6,8 @@
 
 |    **Item**     |    **Topic**     | **Due Date**          | **status** |
 |-----------------|-----------------|-----------------------|------------|
-| :one:[Homework06](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%206) | Data Wrangling Wrap Up | November 10, 2017 |:white_check_mark:Finished    |
-| :one:[Homework07](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%201) | Data Analysis Pipeline | November 14, 2017 |In progress!   |
+| :six:[Homework06](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%206) | Data Wrangling Wrap Up | November 10, 2017 |:white_check_mark:Finished    |
+| :seven:[Homework07](https://github.com/vanflad/STAT545-hw-fladmark-vanessa/tree/master/Homework%207) | Data Analysis Pipeline | November 15, 2017 |:white_check_mark:Finished    |
 
 ## 545 Previous Homework Links:
 
