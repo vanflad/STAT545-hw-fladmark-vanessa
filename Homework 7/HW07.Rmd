@@ -68,7 +68,7 @@ The last and [final R script](https://github.com/vanflad/STAT547-hw-fladmark-van
 ## Troubleshooting/Links
 
 * How to use [R to automate](https://github.com/STAT545-UBC/STAT545-UBC.github.io/blob/master/automation10_holding-area/01_automation-example_just-r/Makefile.R) because Make is just too hard!
-* Reminder how to jitter points for the colorful all-continent graph because I always forget that it's `[position="jitter"]`(http://ggplot2.tidyverse.org/reference/geom_jitter.html) for ggplot not `method="jitter"` like in base-R
+* Reminder how to jitter points for the colorful all-continent graph because I always forget that it's [`position="jitter"`](http://ggplot2.tidyverse.org/reference/geom_jitter.html) for ggplot not `method="jitter"` like in base-R
 * Jenny Bryan explaining the error I was getting when I tried to run [fct_reorder](https://github.com/STAT545-UBC/Discussion/issues/488) over a dataframe and that I should create a vector of the new printed levels and *then* reorder accordingly
 * I always get response and explanitory variable mixed up in linear models and so I went to my other course Biol 501's webpage where they have "R tips" on [linear models](https://www.zoology.ubc.ca/~schluter/R/fit-model/)
 * How to use [broom](https://github.com/tidyverse/broom) to make outputs from linear models nice!
