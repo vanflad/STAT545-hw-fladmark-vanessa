@@ -1,0 +1,1032 @@
+date,site.ID,site.name,time,lat,lon,crew,precip,cloud.cover,sea.state,wind.speed,wind.direction,secchi,temp.0m,salinity.0m,temp.1m,salinity.1m,net.sets,set.number,set.type,min.searching,site.dimpling,site.sliders,site.poppers,set.dimpling,set.sliders,set.poppers,so.taken,so.total,cu.taken,cu.total,he.taken,he.total,co.taken,co.total,pi.taken,pi.total,bycatch.spp.1,bycatch.num.1,bycatch.spp.2,bycatch.num.2,bycatch.spp.3,bycatch.num.3,mort.spp.1,mort.num.1,mort.spp.2,mort.num.2,mort.spp.3,mort.num.3,SO.stockID,CO.stockID,HE.stockID,Whatman#,comments,preserved,initials
+yyyy-mm-dd,D## OR J##,designated site name,"24 hrs(hh:mm) of net set (or of zoop if no set)",latitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),longitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),full names separated by commas,"precipitation (none, light, moderate, heavy)",percent cloud cover (25% increments),"sea state(beaufort scale)","wind speed(knots; 0, 0.1-5, 5-10, 10-15, 15-20, 20-30)","wind direction (NA if wind speed = 0)","secchi depth(0.1m)","surface temperature(¡C)","surface salinity(ppt)","1m temperature(¡C)","1m salinity(ppt)",number of net deployments,"If multiple sets at one site, enter which set entered (NA if not multiple sets)",targeted or random (NA if no set),number of minutes spent searching for fish,"dimpling activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","sliding activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","popping activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","dimpling activity(0 = none,1 = 1-15,2 = >15, NA if no set)","sliding activity(0 = none,1 = 1-15,2 = >15, NA if no set)","popping activity(0 = none,1 = 1-15,2 = >15, NA if no set)",number of sockeye retained,"total sockeye in net (rounded to nearest 10,100, or 1000)",number of chum retained,"total chum in net (rounded to nearest 10,100, or 1000)",number of herring retained,"total herring in net (rounded to nearest 10,100, or 1000)",number of coho retained,"total coho in net (rounded to nearest 10,100, or 1000)",number of pink retained,"total pink in net (rounded to nearest 10,100, or 1000)","bycatch species #1(NA if none)","number of bycatch species #1 in net(NA if none)","bycatch species #2(NA if none)","number of bycatch species #2 in net(NA if none)","bycatch species #3(NA if none)","number of bycatch species #3 in net(NA if none)","mortality species #1(NA if none)","number of mort species #1 in net(NA if none)","mortality species #2(NA if none)","number of mort species #2 in net(NA if none)","mortality species #3(NA if none)","number of mort species #3 in net(NA if none)",Range of 7 digit codes (DS#####-DS##### or JS#####-JS#####),Range of 7 digit codes (DC#####-DC##### or JC#####-JC#####),Range of 7 digit codes (DH#####-DH##### or JH#####-JH#####),sheet number (continuous throughout the season),notes from datasheet,"1 = preserved correctly0 = not correctlyTBD = in dewarNA = no fish taken",initials of data enterer
+2016-05-07,D09,Okisollo Channel,13:04,50.309111,-125.323871,"Brett Johnson, Luke Rogers, Sam James",none,0,2,5-10,NW,11.0,10.7,28.7,10.5,28.7,0,NA,NA,27,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-07,D22,McMullen Point,07:20,50.224243,-125.395419,"Brett Johnson, Luke Rogers, Sam James",none,25,1,0.1-5,NW,9.5,10.0,28.9,10.0,28.9,0,NA,NA,25,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-07,D23,Discovery East,10:53,50.207638,-125.356127,"Brett Johnson, Luke Rogers, Sam James",none,0,1,0.1-5,NW,9.5,10.3,28.5,10.2,28.8,0,NA,NA,30,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-09,D07,Hoskyn Channel,10:47,50.177940,-125.124437,"Luke Rogers, Yuliya Kuzmenko, Tim Spesivy",none,0,2,0.1-5,NW,8.3,10.7,28.5,10.6,28.6,0,NA,NA,21,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,LR
+2016-05-09,D24,Surge Narrows,09:45,50.233615,-125.114968,"Luke Rogers, Yuliya Kuzmenko, Tim Spesivy",none,0,2,5-10,NE,7.5,10.3,28.4,10.2,28.4,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,LR
+2016-05-09,D08,Calm Channel,07:40,50.318037,-125.049415,"Luke Rogers, Yuliya Kuzmenko, Tim Spesivy",none,0,1,0.1-5,NW,5.0,10.0,27.6,10.0,27.6,2,2,targeted,92,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No fish caught in either set. Fish surface activity: rapid splashing as of many fish. Visual on several: small <7cm, some distinct popping also. ",NA,LR
+2016-05-09,D08,Calm Channel,07:25,50.318037,-125.049415,"Luke Rogers, Yuliya Kuzmenko, Tim Spesivy",none,0,1,0.1-5,NW,5.0,10.0,27.6,10.0,27.6,2,1,targeted,92,0,0,1,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No fish caught in either set. Fish surface activity: rapid splashing as of many fish. Visual on several: small <7cm, some distinct popping also. No specific set activity recorded for second set.",NA,SJ
+2016-05-10,D04,Fransisco Point,06:24,49.995144,-125.150126,"Brett Johnson, Luke Rogers, Sam James",none,0,1,0.1-5,NW,1.6,11.4,27.6,11.4,27.6,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ  
+2016-05-10,D25,Twin Islands,09:27,50.022435,-124.916494,"Brett Johnson, Luke Rogers, Sam James",none,0,0,0,NA,3.0,13.2,24.1,13.0,24.6,0,NA,NA,20,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-10,D26,Oyster Bay,07:44,49.899320,-125.144043,"Brett Johnson, Luke Rogers, Sam James",none,0,0,0,NA,3.1,10.7,28.2,10.7,28.2,0,NA,NA,30,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-11,D11,Turn Island,11:14,50.329665,-125.459697,"Luke Rogers, Tim Spesivy, Sam James",none,0,1,5-10,W,13.0,10.1,28.7,10.0,28.8,0,NA,NA,26,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Scan 11:14-11:30 at Turn Isl, 11:36-11:46 at Rock Bay",NA,SJ
+2016-05-11,D20,Godwin Point,07:40,50.448888,-125.400196,"Luke Rogers, Tim Spesivy, Sam James",light,100,1,5-10,W,9.3,10.0,28.3,10.0,28.5,0,NA,NA,36,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Scan stopped at 0802 near Godwin Pt and restarted at 0804 in Bickley Bay.,NA,SJ
+2016-05-11,D21,Hemming Bay,09:29,50.385637,-125.374951,"Luke Rogers, Tim Spesivy, Sam James",none,25,1,0.1-5,W,12.7,10.6,28.0,10.2,28.3,0,NA,NA,33,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-05-13,D26,Oyster Bay,13:10,49.907990,-125.162322,"Luke Rogers, Brett Johnson, TIm Spesivy",none,50,1,0.1-5,SE,3.2,11.6,28.1,11.1,28.3,0,NA,NA,20,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BJ
+2016-05-13,D04,Fransisco Point,14:00,49.986500,-125.162953,"Luke Rogers, Brett Johnson, TIm Spesivy",none,75,1,0.1-5,S,1.4,14.4,27.4,13.9,27.3,1,NA,targeted,12,0,1,0,0,1,0,30,60,1,1,0,0,2,2,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0031-DS0060,DC0011-DC0012,NA,2,mortality: 1 unidentified juvenile salmon,1,BJ
+2016-05-13,D25,Twin Islands,08:03,50.023957,-124.914675,"Luke Rogers, Brett Johnson, TIm Spesivy",none,25,0,0.1-5,S,2.3,15.4,25.8,14.6,25.8,2,2,targeted,10,0,2,1,0,2,0,31,400,10,20,9,9,0,0,10,20,squid,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0001-DS0030,NA,DH0001-DH0009,1,Saw fish immediately upon site arrival,1,BJ
+2016-05-13,D25,Twin Islands,07:28,50.023957,-124.914675,"Luke Rogers, Brett Johnson, TIm Spesivy",none,25,0,0.1-5,S,2.3,15.4,25.0,14.6,25.8,2,1,targeted,15,0,2,1,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Saw fish immediately upon site arrival,NA,SJ
+2016-05-14,D07,Hoskyn Channel,13:01,50.193040,-125.136573,"Brett Johnson, Luke Rogers, Sam James",none,50,1,0.1-5,NW,1.5,15.9,26.5,14.4,26.9,1,NA,targeted,4,0,1,0,0,1,0,30,100,3,3,10,16,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0121-DS0150,DC0042,DH0041-DH0050,5,NA,1,BJ
+2016-05-14,D08,Calm Channel,10:35,50.321130,-125.040588,"Brett Johnson, Luke Rogers, Sam James",none,50,0,0,NA,2.0,16.0,17.0,15.3,19.2,1,NA,targeted,35,1,1,0,1,1,0,2,2,0,0,9,9,1,1,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0091-DS0092,DC0031,DH0031-DH0039,4,NA,1,BJ
+2016-05-14,D24,Surge Narrows,06:25,50.237386,-125.120020,"Brett Johnson, Luke Rogers, Sam James",none,25,0,0,NA,1.5,13.0,27.3,11.5,27.9,1,NA,targeted,10,1,1,1,0,1,0,30,200,1,1,10,11,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0061-DS0090,NA,DH0021-DH0030,3,NA,1,BJ
+2016-05-15,D09,Okisollo Channel,07:40,50.287179,-125.334160,"Luke Rogers, Tim Spesivy, Sam James",none,100,1,0.1-5,W,8.5,10.4,28.1,10.4,28.4,1,NA,targeted,71,1,1,1,0,1,0,0,0,0,1,0,0,0,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,LR
+2016-05-15,D22,McMullen Point,09:50,50.243454,-125.398108,"Luke Rogers, Tim Spesivy, Sam James",none,50,2,5-10,N,8.5,10.5,28.0,10.6,28.1,1,NA,targeted,16,0,1,1,0,1,0,30,700,10,30,10,30,2,2,10,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0151-DS0180,DC0051-DC0052,DH0041-DH0050,6,NA,1,LR
+2016-05-15,D23,Discovery East,13:40,50.208559,-125.355064,"Luke Rogers, Tim Spesivy, Sam James",none,50,1,5-10,N,7.0,10.6,28.4,10.5,28.5,2,1,targeted,20,0,1,1,0,1,0,0,1000,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,sockeye,1,NA,NA,NA,NA,NA,NA,NA,NA,Released fish due to abrasion on net.,NA,SJ
+2016-05-15,D23,Discovery East,14:20,50.208559,-125.355064,"Luke Rogers, Tim Spesivy, Sam James",none,50,1,5-10,N,7.0,10.6,28.4,10.5,28.5,2,2,targeted,13,0,1,1,0,1,0,0,2,0,9,0,0,0,1,0,9,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Released fish due to more fish in the area.,NA,LR
+2016-05-16,D11,Turn Island ,08:15,50.348167,-125.455619,"Brett Johnson, Tim Spesivy, Sam James",none,25,2,5-10,W,11.5,10.2,28.7,10.1,28.8,0,NA,NA,23,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,None,NA,SJ
+2016-05-16,D20,Godwin Point,12:59,50.451200,-125.397111,"Brett Johnson, Tim Spesivy, Sam James",none,75,1,5-10,W,8.5,11.3,27.5,11.1,27.6,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2 Scans: 1: Shoal Bay + Godwin Pt (10 min), 2: Bickley Bay (10 min)",NA,SJ
+2016-05-16,D21,Hemming Bay,09:50,50.393263,-125.373514,"Brett Johnson, Tim Spesivy, Sam James",none,50,1,0.1-5,W,8.1,10.4,28.5,10.4,28.5,1,NA,targeted,38,0,1,0,0,1,0,30,500,3,6,6,9,0,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0181-DS0210,NA,DH0061-DH0066,7,"Had to end sampling to prevent drifting onto rocks. (Could not sample more CU, HE, or CO)",1,SJ
+2016-05-18,D26,Oyster Bay,11:28,49.935861,-125.175185,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,1,0.1-5,NW,7.5,11.9,27.7,11.6,27.8,0,NA,NA,25,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1 single slider seen, nothing else",NA,OG
+2016-05-18,D04,Fransisco Point,12:51,49.990151,-125.160818,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,1,5-10,NW,7.0,15.1,25.4,15.1,25.5,2,2,targeted,27,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Resume search 13:05 after first set.,NA,OG
+2016-05-18,D04,Fransisco Point,13:15,49.990151,-125.160818,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,1,5-10,NW,7.0,15.1,25.4,15.1,25.5,2,1,targeted,27,0,1,0,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,set surface activity only recorded once. Unclear which set it's for.,NA,SJ
+2016-05-18,D25,Twin Islands,06:58,50.020465,-124.917743,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,0,0.1-5,SE,6.5,15.9,25.0,15.8,25.1,2,2,targeted,22,2,1,0,2,1,0,30,200,5,10,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0211-DS0240,NA,NA,8,"First set 06:20 mostly chum fry. Set on dimpling 2 and a single slider event(1) resume search 06:48, second set 06:58-targeted set.",1,OG
+2016-05-18,D25,Twin Islands,06:20,50.020465,-124.917743,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,0,0.1-5,SE,6.5,15.9,25.0,15.8,25.1,2,1,targeted,22,2,1,0,1,1,0,0,2,0,50,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"First set 06:20 mostly chum fry. Set on dimpling 2 and a single slider event(1) resume search 06:48, second set 06:58-targeted set.",NA,SJ
+2016-05-19,D07,Hoskyn Channel,14:10,50.191099,-125.138578,"Luke Rogers, Sam James, Olivia Gutjahr",light,100,1,0.1-5,N,5.0,13.5,26.8,13.3,27.3,1,NA,targeted,7,1,1,0,1,1,0,30,100,10,70,0,0,0,0,10,70,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00301-DS00330,NA,NA,11,NA,1,OG
+2016-05-19,D08,Calm Channel,06:56,50.319977,-125.042165,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,1,0.1-5,NW,6.0,15.8,19.7,15.7,20.0,1,NA,targeted,25,0,1,1,0,1,0,30,100,8,8,0,0,1,1,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00241-DS00270,DC00081,NA,9,NA,1,OG
+2016-05-19,D24,Surge Narrows,10:52,50.241361,-125.119113,"Luke Rogers, Sam James, Olivia Gutjahr",none,100,1,5-10,W,6.0,13.2,27.1,12.7,27.6,1,NA,targeted,10,0,2,0,0,2,0,30,600,10,20,0,0,1,1,10,20,NA,NA,NA,NA,NA,NA,sockeye,2,NA,NA,NA,NA,DS00271-DS00300,DC00091,NA,10,morst in MS222 waste by accident,1,OG
+2016-05-20,J08,Naka Creek,10:45,50.480359,-126.412275,"Sean Godwin, Chris Guinchard, Mirko Diaz",none,50,2,5-10,SE,NA,NA,NA,NA,NA,0,NA,NA,30,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,CG
+2016-05-20,J05,Stimpson Point,11:43,50.506881,-126.247378,"Sean Godwin, Chris Guinchard, Mirko Diaz",none,50,2,5-10,SE,NA,10.3,29.0,10.1,29.1,1,NA,targeted,1,1,1,1,1,2,0,30,2000,2,2,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA,sockeye,3,NA,NA,NA,NA,JS00001-JS00030,NA,NA,1,NA,1,CG
+2016-05-20,J07,South Mouth,14:48,50.458043,-126.152637,"Sean Godwin, Chris Guinchard, Mirko Diaz, Clare Atkinson",none,25,1,0.1-5,NW,NA,12.4,28.9,10.0,29.1,1,NA,targeted,15,1,0,0,1,0,0,0,0,0,50,0,0,0,10,0,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,CG
+2016-05-21,J04,Forward Bay,12:00,50.526493,-126.387180,"Sean Godwin, Chris Guinchard, Clare Atkinson, Mirko Diaz",none,0,1,0.1-5,NW,NA,11.5,28.9,10.4,29.1,3,3,targeted,123,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"few small cryptic schools, unable to catch",NA,SM
+2016-05-21,J06,Blenkinsop Bay,05:22,50.473969,-126.247378,"Sean Godwin, Chris Guinchard, Clare Atkinson",none,0,1,0.1-5,NW,NA,9.6,28.9,9.7,29.2,1,NA,targeted,0,2,2,2,2,2,1,30,2000,0,0,1,1,0,0,0,0,stickleback,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00031-JS00060,NA,JH00001,2,NA,1,SG
+2016-05-21,J07,South Mouth,08:58,50.458043,-126.152637,"Sean Godwin, Chris Guinchard, Clare Atkinson",none,0,1,0.1-5,NW,NA,10.0,29.2,10.0,29.2,2,2,targeted,0,2,2,2,1,1,1,30,150,0,0,0,0,1,1,10,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00061-JS00090,JC00021,NA,3,NA,1,SM
+2016-05-21,J08,Naka Creek,14:35,50.480359,-126.412275,"Sean Godwin, Chris Guinchard, Clare Atkinson",none,25,1,0.1-5,NW,7.5,11.8,28.8,11.6,28.8,1,NA,targeted,8,1,0,1,1,0,1,25,25,0,0,1,1,3,3,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00091-JS00115,JSC00031-JC00033,JH00031,4,NA,NA,SM
+2016-05-22,J01,Hanson North,15:40,50.585454,-126.749707,"Sean Godwin, Mirko Diaz, Clare Atkinson",none,50,3,5-10,NW,8.5,11.0,29.7,10.6,29.6,0,NA,NA,19,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bad weather, no fish",NA,SM
+2016-05-22,J02,Swanson Island,12:45,50.601718,-126.701857,"Sean Godwin, Mirko Diaz, Clare Atkinson",none,25,2,10-15,NW,12.0,10.0,29.6,9.8,29.5,1,NA,targeted,2,2,2,1,2,1,0,30,500,8,8,0,0,1,1,10,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00181-JS00210,JC00061,NA,7,NA,1,SM
+2016-05-22,J03,Cracroft Point,10:55,50.546920,-126.671930,"Sean Godwin, Mirko Diaz, Clare Atkinson",none,25,3,10-15,NW,NA,NA,NA,NA,NA,2,2,targeted,5,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Few good schools, bad current and wind. Set twice, difficult condition, no fish, forgot YSI and secchi",NA,SM
+2016-05-22,J09,Blinkhorn Peninsula,05:06,50.543296,-126.816816,"Sean Godwin, Mirko Diaz, Clare Atkinson",none,25,0,0,NA,NA,9.9,29.2,9.9,29.4,1,NA,targeted,0,2,2,2,1,0,1,30,40,9,9,1,1,5,5,10,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00121-JS00145,JC00041-JC00045,JH00041,5,forgot Secchi,1,SG
+2016-05-22,J10,Hanson South,08:21,50.558361,-126.732241,"Sean Godwin, Mirko Diaz, Clare Atkinson",none,25,0,0,NA,10.0,10.1,29.2,10.0,29.2,1,NA,targeted,1,2,2,2,2,2,1,30,300,7,7,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00151-JS00180,NA,NA,6,NA,1,SM
+2016-05-23,D09,Okisollo Channel,06:30,50.309080,-125.325703,"Luke Rogers, Olivia Gutjahr, Tim Spesivy",none,100,1,0,NA,12.3,11.0,28.2,11.0,28.2,1,NA,targeted,4,1,1,1,1,1,0,30,600,10,40,0,0,1,1,10,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00331-DS00360,NA,NA,12,YSI did not calibrate this morning- fluctuating readings. Coho neglected and in dry shipper.,1,OG
+2016-05-23,D22,McMullen Point,13:25,50.224106,-125.395004,"Luke Rogers, Olivia Gutjahr, Tim Spesivy",none,25,2,10-15,N,10.4,11.1,28.1,11.0,28.2,2,2,targeted,45,0,1,1,0,1,0,30,600,10,60,3,3,7,7,10,60,NA,NA,NA,NA,NA,NA,sockeye,1,NA,NA,NA,NA,DS00361-DS00390,DC00121-DC00127,DH00121-DH00123,14,NA,1,OG
+2016-05-23,D22,McMullen Point,13:00,50.224106,-125.395004,"Luke Rogers, Olivia Gutjahr, Tim Spesivy",none,25,2,10-15,N,10.4,11.1,28.1,11.0,28.2,2,1,targeted,45,0,1,1,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,First set originally not entered due to no fish in catch. Set surface activity was not recorded for first set.,NA,SJ
+2016-05-23,D27,Granite Point,09:30,50.274701,-125.377445,"Luke Rogers, Olivia Gutjahr, Tim Spesivy",none,100,1,5-10,NW,12.0,10.8,28.4,10.8,28.5,1,NA,targeted,19,0,1,1,0,1,1,30,600,10,100,4,4,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00391-DS00420,NA,DH00131-DH00134,13,NA,1,OG
+2016-05-24,D11,Turn Island,07:15,50.348158,-125.455649,"Brett Johnson, Yulia Kuzmenko, Tim Spesivy",none,50,1,0.1-5,NW,14.7,10.4,28.9,10.4,28.9,0,NA,NA,30,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,OG
+2016-05-24,D20,Godwin Point,13:14,50.462287,-125.364410,"Brett Johnson, Yulia Kuzmenko, Tim Spesivy",none,50,1,0.1-5,NW,10.5,11.0,28.3,10.9,28.3,0,NA,NA,30,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,OG
+2016-05-24,D21,Hemming Bay,08:44,50.392115,-125.374782,"Brett Johnson, Yulia Kuzmenko, Tim Spesivy",none,75,1,0.1-5,NW,13.0,10.9,28.5,10.8,28.3,1,NA,targeted,33,0,1,1,0,1,1,30,500,4,7,0,0,2,3,4,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00421-DS00450,DC00141-DC00142,NA,15,NA,1,OG
+2016-05-26,D24,Surge Narrows,10:11,50.238058,-125.117858,"Luke Rogers, Lauren Portner, Sam James",none,100,1,0.1-5,NW,7.0,13.1,26.1,11.8,27.4,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TS
+2016-05-26,J08,Naka Creek,06:30,50.482083,-126.409650,"Sean Godwin, Shannon Mendt, Brett Johnson",none,100,2,0.1-5,NW,7.0,10.2,30.5,10.2,30.5,0,NA,NA,41,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BK
+2016-05-26,D07,Hoskyn Channel,11:06,50.190737,-125.143169,"Luke Rogers, Lauren Portner, Sam James",none,100,1,0.1-5,N,4.0,12.8,27.7,12.6,27.7,1,NA,targeted,5,0,1,1,0,1,1,30,600,10,80,0,0,0,0,10,80,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00541-DS00570,NA,NA,16,NA,1,TS
+2016-05-26,D08,Calm Channel,07:52,50.3175,-125.050736,"Luke Rogers, Lauren Portner, Sam James",none,50,1,0.1-5,W,7.3,14.6,25.1,14.5,25.3,2,2,targeted,42,1,1,1,NA,NA,NA,0,2,0,20,0,0,0,2,0,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2016-05-26,D08,Calm Channel,07:13,50.3175,-125.050736,"Luke Rogers, Lauren Portner, Sam James",none,50,1,0.1-5,W,7.5,14.6,25.1,14.5,25.3,2,1,targeted,42,1,1,1,2,0,0,0,3,0,9,0,0,0,1,0,1,perch,300,pipefish,2,sandlance,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,TS
+2016-05-26,J04,Forward Bay,07:50,50.522967,-126.377383,"Sean Godwin, Shannon Mendt, Brett Johnson",none,100,1,0.1-5,NW,10.5,9.8,30.6,9.8,30.6,2,2,targeted,20,1,0,1,1,0,1,30,400,7,7,0,0,6,6,5,5,stickleback,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00211-JS00240,JC00071-JC00076,NA,8,"flow-meter did not rotate, did not retain sample",1,BK
+2016-05-26,J05,Stimpson Point,11:00,50.495266,-126.211667,"Sean Godwin, Shannon Mendt, Brett Johnson",none,100,3,5-10,NW,10.5,9.8,30.6,9.8,30.6,1,NA,targeted,10,1,1,1,1,1,1,30,400,10,100,0,0,0,0,10,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00241-JS00270,NA,NA,9,NA,1,BK
+2016-05-27,D27,Granite Point,10:44,50.274454,-125.377924,"Luke Rogers, Lauren Portner, Sam James",none,50,2,10-15,NW,14.5,10.8,28.4,10.8,28.4,0,NA,NA,22,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TS
+2016-05-27,J10,Hanson South,13:31,50.477038,-126.028566,"Sean Godwin, Brianna Knowles, Brett Johnson",light,100,1,0.1-5,NW,10.5,9.9,31.6,9.9,31.6,0,NA,NA,29,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BK
+2016-05-27,D09,Okisollo Channel,11:30,50.304166,-125.333511,"Luke Rogers, Lauren Portner, Sam James",none,75,1,5-10,NW,10.5,11.3,28.1,11.2,28.2,2,1,targeted,5,1,2,1,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Caught net on bottom, abandoned set to free net.",NA,SJ
+2016-05-27,D09,Okisollo Channel,12:32,50.304166,-125.333511,"Luke Rogers, Lauren Portner, Sam James",none,75,1,5-10,NW,10.5,11.3,28.1,11.2,28.2,2,2,targeted,5,1,2,1,1,1,0,30,200,10,13,4,4,0,0,9,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00451-DS00480,NA,DH00151-DH00154,18,NA,1,TS
+2016-05-27,D22,McMullen Point,07:00,50.243773,-125.397476,"Luke Rogers, Lauren Portner, Sam James",none,75,1,10-15,NW,12.0,10.8,28.0,10.8,28.2,1,NA,targeted,9,1,1,2,1,1,1,30,400,8,20,0,1,0,0,10,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00571-DS00600,NA,NA,17,appr. 2 ml of zooplankton sample was lost,1,TS
+2016-05-27,J01,Hanson North,16:36,50.576696,-126.721158,"Sean Godwin, Brianna Knowles, Brett Johnson",light,100,1,0.1-5,NW,8.5,11.0,32.1,10.0,32.1,1,NA,targeted,8,2,1,1,2,1,1,30,200,10,50,0,0,1,1,10,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00361-JS00390,JC00121,NA,13,NA,1,BK
+2016-05-27,J06,Blenkinsop Bay,05:45,50.477037,-126.028592,"Sean Godwin, Brianna Knowles, Brett Johnson",none,75,2,0.1-5,NW,8.5,9.8,31.3,9.8,31.5,2,2,targeted,0,2,2,2,2,1,1,30,300,10,30,0,0,7,7,9,9,stickeback,1,chinook,1,NA,NA,sockeye,1,NA,NA,NA,NA,JS00271-JS00300,JC00091-JC00097,NA,10,NA,1,BK
+2016-05-27,J07,South Mouth,07:55,50.455900,-126.119100,"Sean Godwin, Brianna Knowles, Brett Johnson",none,50,3,5-10,NW,8.0,10.0,31.4,10.0,31.4,1,NA,targeted,0,1,1,1,1,1,1,30,70,0,0,0,0,10,16,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00301-JS00330,JC00101-00110,NA,11,NA,1,BK
+2016-05-27,J09,Blinkhorn Peninsula,14:20,50.543432,-126.813400,"Sean Godwin, Brianna Knowles, Brett Johnson, Jack Goldman",light,100,0,0,NA,7.5,10.0,31.6,10.0,31.6,1,NA,targeted,0,2,2,2,2,2,1,30,400,1,1,0,0,1,1,2,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00331-JS00360,JC00111,NA,12,NA ,1,BK
+2016-05-28,J02,Swanson Island,05:15,50.601250,-126.704457,"Brett Johnson, Shannon Mendt, Brianna Knowles",light,100,0,0,NA,10.0,9.5,30.1,9.5,30.2,2,2,targeted,0,2,2,2,1,2,1,30,750,10,15,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA,sockeye,3,NA,NA,NA,NA,JS00391-JS00420,NA,NA,14,No fish on first set,1,SM
+2016-05-28,J03,Cracroft Point,09:10,50.545897,-126.668909,"Brett Johnson, Shannon Mendt, Brianna Knowles, Jack Goldman",none,25,1,0.1-5,SE,8.5,10.4,29.6,10.2,29.6,1,NA,targeted,0,1,2,2,0,1,1,30,105,1,1,0,0,10,85,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00421-JS00450,JC00141-JC00150,NA,15,NA,1,SM
+2016-06-01,D09,Okisollo Channel,07:47,50.308769,-125.326765,"Brett Johnson, Luke Rogers, Mirko Diaz",none,100,1,0.1-5,NW,11.5,11.5,28.2,11.2,28.4,1,NA,targeted,0,1,2,1,1,1,0,30,200,10,60,0,0,0,0,3,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00481-DS00510,NA,NA,19,NA,1,TS
+2016-06-01,D22,McMullen Point,14:35,50.245650,-125.396035,"Brett Johnson, Luke Rogers, Mirko Diaz",none,100,1,0.1-5,NW,15.0,11.4,28.1,11.0,28.6,1,NA,targeted,2,0,1,0,0,1,0,30,50,10,10,0,0,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00601-DS00830,NA,NA,21,First dayaltering search time method. First day with altered set/site-wide surface activity,1,TS
+2016-06-01,D27,Granite Point,10:50,50.274055,-125.328828,"Brett Johnson, Luke Rogers, Mirko Diaz",none,50,1,0.1-5,NW,14.0,11.0,28.6,10.9,28.7,1,NA,targeted,0,0,1,1,0,1,0,30,1000,10,100,10,13,1,2,10,100,chinook,1,stickleback,1,NA,NA,sockeye,2,NA,NA,NA,NA,DS00511-DS00540,DC00171,DH00171-DH00180,20,Starting to use 64 um sieved filter for zooplankton preservation,1,TS
+2016-06-01,J01,Hanson North,13:35,50.576696,-126.721158,"Chris Guinchard, Lauren Portner, Dylan Smyth.",none,100,0,0.1-5,N,8.5,10.2,30.3,9.7,30.3,1,NA,targeted,3,2,1,1,2,1,1,18,18,10,100,0,0,0,0,10,200,NA,NA,NA,NA,NA,NA,pink,3,NA,NA,NA,NA,JS00481-JS00499,NA,NA,17,Morts due to misidentification,1,CG
+2016-06-01,J02,Swanson Island,10:22,50.601250,-126.704457,"Chris Guinchard, Lauren Portner, Dylan Smyth.",none,75,0,0,NA,NA,10.1,29.6,10.0,29.7,1,NA,targeted,0,2,2,2,2,2,1,30,2000,10,900,7,7,4,4,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00451-JS00480,JC00151-JC00154,JH00151-JH00157,16,Secchi left onboard Madrona,1,CG
+2016-06-02,D11,Turn Island,07:17,50.347739,-125.454630,"Brett Johnson, Tim Spesivy, Sam James",none,75,1,0,NA,13.5,10.8,28.7,10.7,28.6,1,NA,targeted,7,1,3,2,1,2,1,30,400,10,100,3,3,0,0,4,4,NA,NA,NA,NA,NA,NA,sockeye,1,NA,NA,NA,NA,DS00631-DS00660,NA,DH00211-DH00213,22,Boat/Net pushed around in current while maneuvering boat into ssafe position. Significant scale loss. Fish may not be suitable for sea lice enumeration.,1,MD
+2016-06-02,D20,Godwin Point,14:39,50.462513,-125.368231,"Brett Johnson, Tim Spesivy, Sam James",light,100,1,0.1-5,SE,8.5,11.9,26.9,10.9,28.1,1,NA,targeted,5,2,2,2,0,1,0,30,300,3,80,0,1,0,0,4,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00691-DS00720,NA,NA,24,NA,1,MD
+2016-06-02,D21,Hemming Bay,10:38,50.386065,-125.376067,"Brett Johnson, Tim Spesivy, Sam James",none,75,0,0,NA,9.0,12.5,28.3,11.3,28.6,1,NA,targeted,5,1,2,1,2,1,0,30,200,10,200,0,0,0,0,6,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00661-DS00690,NA,NA,23,NA,1,MD
+2016-06-02,J08,Naka Creek,14:51,50.540979,-126.780850,"Lauren Portner, Dylan Smyth, Olivia Gutjahr",none,100,1,5-10,SE,10.0,10.2,30.2,10.2,30.3,1,NA,targeted,6,2,1,0,2,1,0,30,300,10,100,2,2,0,0,10,100,NA,NA,NA,NA,NA,NA,pink,NA,NA,NA,NA,NA,JS00691-JS00720,NA,JH00231-JH00232,20,Mort due to missidentification,1,DS
+2016-06-02,J09,Blinkhorn Peninsula,09:49,50.543432,-126.813400,"Lauren Portner, Dylan Smyth, Olivia Gutjahr",none,50,1,5-10,S,6.0,10.4,30.4,10.4,30.4,2,2,targeted,18,2,2,2,2,2,2,30,600,10,400,1,1,6,6,5,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00661-JS00690,JC00221-JC00226,JH00221-JH00221,19,Couldn't locate whatman paper for JS00541-JS00660,1,CG
+2016-06-02,J10,Hanson South,05:37,50.477038,-126.028566,"Lauren Portner, Dylan Smyth, Olivia Gutjahr",none,50,1,0.1-5,SE,8.5,10.1,30.4,10.0,30.4,1,NA,targeted,0,3,1,0,2,0,0,30,80,5,5,0,0,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00511-JS00540,JC00171-JC00171,NA,18,NA,1,CG
+2016-06-03,D08,Calm Channel,07:17,50.319834,-125.042363,"Luke Rogers, Sam James, Mirko Diaz",none,100,1,0.1-5,NE,8.0,16.2,16.9,15.7,19.2,0,NA,NA,27,2,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,MD
+2016-06-03,D07,Hoskyn Channel,12:45,50.190887,-125.143416,"Luke Rogers, Sam James, Mirko Diaz",none,100,1,0.1-5,N,9.3,15.7,25.7,15.7,25.8,1,NA,targeted,4,2,2,1,0,1,0,30,600,10,100,0,0,1,2,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00751-DS00780,DC00751,NA,26,NA,1,MD
+2016-06-03,D24,Surge Narrows,08:21,50.239953,-125.126574,"Luke Rogers, Sam James, Mirko Diaz",none,100,1,0.1-5,NE,9.8,12.6,27.5,12.4,27.5,1,NA,targeted,3,2,2,2,1,1,0,30,200,10,200,0,0,1,1,10,200,Yellow Shiner Perch,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00721-DS00750,DC00241,NA,25,NA,1,MD
+2016-06-03,J05,Stimpson Point,13:17,50.507301,-126.243250,"Chris Guinchard, Lauren Portner, Dylan Smyth, Olivia Gutjahr",none,100,2,5-10,SE,10.0,10.2,31.3,10.2,31.4,1,NA,targeted,6,0,0,1,0,1,1,30,4000,10,700,0,1,0,0,1,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00721-JS00750,NA,NA,21,"Rough weather, fish  not happy in net, let them go before getting all pink and the 1 herring. One sockeye mort floating on surface on arrival to site.",1,LP
+2016-06-03,J07,South Mouth,16:22,50.459011,-126.169499,"Chris Guinchard, Lauren Portner, Dylan Smyth, Olivia Gutjahr",none,100,2,5-10,SE,12.0,10.2,31.6,10.1,31.4,1,NA,targeted,17,1,1,1,0,1,0,30,400,10,100,0,0,0,0,10,100,chinook,1,NA,NA,NA,NA,sockeye,1,NA,NA,NA,NA,JS00751-JS00780,NA,NA,22,NA,1,LP
+2016-06-04,J03,Cracroft Point,13:44,50.543029,-126.632233,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr",none,0,1,5-10,NW,12.0,10.8,31.3,10.5,31.3,1,NA,targeted,7,1,1,0,2,1,0,30,700,6,100,0,0,2,2,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00811-JS00840,JC00271-JC00272,NA,24,there were extra chum that escaped through a hole in the net,1,OG
+2016-06-04,J04,Forward Bay,10:14,50.525287,-126.390347,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr",none,50,2,10-15,NW,10.5,10.2,31.3,10.2,31.2,1,NA,targeted,1,1,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no fish, stopped for weather",NA,OG
+2016-06-04,J06,Blenkinsop Bay,06:13,50.458983,-126.169594,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr",none,50,0,0.1-5,SE,10.5,10.0,31.4,9.8,31.6,3,3,targeted,0,2,2,2,2,1,0,30,3000,10,100,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,sockeye,2,NA,NA,NA,NA,JS00781-JS00810,NA,NA,23,morts due to caught in the net when pulling in,1,LP
+2016-06-07,D09,Okisollo Channel,08:25,50.304360,-125.332956,"Brett Johnson, Sam James, Luke Rogers, Mirko Diaz",none,25,1,0.1-5,NW,11.5,11.4,28.7,11.4,28.8,1,NA,targeted,1,2,2,1,1,1,0,30,80,10,15,0,0,0,0,0,0,chinook,5,NA,NA,NA,NA,chinook,1,NA,NA,NA,NA,DS00781-DS00810,NA,NA,27,"Set concurrent with Chrys Set (Nordic Queen), Lenora set (Beach Seine 1), and Stephane Transects (Pellesi). Visual estimate of catch: 80 sockeye, 5 chum, 3 chinook. Census of catch (milk jug scoop): 82 sockeye, 8 chum, 3 chinook.Total abundance estimate: B: 110, L: 80, M: 60",1,SJ
+2016-06-07,D22,McMullen Point,13:10,50.242671,-125.398265,"Luke Rogers, Sam James, Mirko Diaz",none,0,2,5-10,N,12.5,11.3,28.9,11.3,28.9,1,NA,targeted,4,0,1,0,0,1,0,30,570,10,80,10,16,1,2,10,36,NA,NA,NA,NA,NA,NA,sockeye,3,NA,NA,NA,NA,DS00811-DS00840,DC00811,DH00811-DH00820,28,"Counted fish individually as they swam over the corks during release process for more precise enumeration. Numbers on reverse of data sheet. Enumerated numbers was conducted after sampling and does not include sampled fish. Sockeye: 537, chum: 71, pink: 36, coho: 1, herring: 6",1,SJ
+2016-06-08,D21,Hemming Bay,09:57,50.389498,-125.369949,"Luke Rogers, Tim Spesivy, Shannon Mendt",none,75,1,0.1-5,SW,14.5,10.9,28.8,10.9,28.7,0,NA,NA,20,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SM
+2016-06-08,D11,Turn Island,06:40,50.347862,-125.455554,"Luke Rogers, Tim Spesivy, Shannon Mendt",none,100,1,0.1-5,W,13.0,10.9,29.0,10.9,29.0,1,NA,targeted,4,2,2,2,1,1,0,30,400,10,100,0,0,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00841-DS00870,NA,NA,29,NA,1,SM
+2016-06-08,D20,Godwin Point,12:00,50.461604,-125.368943,"Luke Rogers, Tim Spesivy, Shannon Mendt",none,100,1,0.1-5,NW,8.5,13.1,23.7,11.6,27.4,2,2,targeted,17,2,1,2,2,1,0,30,100,10,50,0,0,1,1,10,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00871-DS00900,DC00871,NA,30,NA,1,SM
+2016-06-08,D20,Godwin Point,11:45,50.461604,-125.368943,"Luke Rogers, Tim Spesivy, Shannon Mendt",none,100,1,0.1-5,NW,8.5,13.1,23.7,11.6,27.4,2,1,targeted,17,2,1,2,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No fish in first set.,NA,SJ
+2016-06-09,D24,Surge Narrows,13:24,49.996280,-125.153277,"Brett Johnson, Tim Spesivy, Shannon Mendt",none,25,3,10-15,SE,5.5,15.1,26.1,15.1,26.1,0,NA,NA,7,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,High wind and swell,NA,SM
+2016-06-09,D07,Hoskyn Channel,10:30,50.190683,-125.143138,"Brett Johnson, Tim Spesivy, Shannon Mendt",none,100,1,0.1-5,S,4.5,14.6,26.2,14.5,26.3,1,NA,targeted,1,1,1,2,1,1,1,30,80,4,100,0,0,0,0,10,60,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01231-DS01260,NA,NA,32,"Fish became unhappy in net, released before able to take all 10 chum samples",1,SM
+2016-06-09,D08,Calm Channel,07:00,50.317940,-125.050807,"Brett Johnson, Tim Spesivy, Shannon Mendt",none,100,2,0.1-5,NW,6.5,15.1,25.3,15.1,25.3,1,NA,targeted,2,1,1,1,1,1,0,0,0,10,40,1,1,1,1,10,26,chinook,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DC01201,DH01201,31,NA,1,SM
+2016-06-09,J02,Swanson Island,13:19,50.602327,-126.701507,"Lauren Portner, Brianna Knowles, Sam James, Melissa Orobko",none,25,1,0.1-5,NW,11.0,10.4,31.4,9.8,31.9,1,NA,targeted,9,2,2,2,2,1,0,30,200,10,100,2,2,2,2,10,80,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00901-JS00930,JC00301-JC00302,JH00301-JH00302,27,NA,1,CA
+2016-06-09,J09,Blinkhorn Peninsula,07:22,50.544941,-126.816489,"Lauren Portner, Brianna Knowles, Sam James",none,0,0,0.1-5,NW,11.5,9.9,31.8,9.9,31.8,1,NA,targeted,1,2,2,2,2,1,1,29,600,10,300,1,1,1,1,10,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00841-JS00869,JC00281-JC00281,JH00281-JH00281,25,NA,1,CA
+2016-06-09,J10,Hanson South,12:26,50.555430,-126.724521,"Lauren Portner, Brianna Knowles, Sam James",moderate,100,0,0.1-5,SE,13.0,10.6,31.6,10.5,31.5,1,NA,targeted,7,2,1,0,2,1,0,30,50,10,100,0,0,8,8,10,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00871-JS00900,JC00291-JC00298,NA,26,NA,1,CA
+2016-06-10,J01,Hanson North,05:34,50.577100,-126.721684,"Lauren Portner, Sam James, Claire Atkinson",none,100,1,0.1-5,NE,10.5,10.0,32.9,10.0,32.9,1,NA,targeted,8,2,1,1,1,1,1,22,27,10,200,0,0,0,0,10,200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00931-JS00952,NA,NA,28,NA,1,BK
+2016-06-10,J03,Cracroft Point,08:07,50.547475,-126.676942,"Lauren Portner, Sam James, Claire Atkinson",none,100,3,5-10,NW,10.5,10.0,32.3,10.0,32.3,1,NA,targeted,14,2,1,1,1,1,0,30,100,2,50,0,0,1,1,10,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00961-JS00990,JC00321,NA,29,"Cruise ship wake: Sockeye #1-11 OK (before wake), Pink # 1-6 OK (before wake), Coho # 1 OK (before wake), Chum # 1-2 OK (before wake), remainder were heavily de-scaled",1,BK
+2016-06-10,J04,Forward Bay,10:34,50.518210,-126.406079,"Lauren Portner, Sam James, Claire Atkinson",none,100,0,0.1-5,SE,6.0,10.4,31.8,10.4,31.8,1,NA,targeted,1,2,2,2,2,1,1,30,200,10,13,0,0,0,0,9,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS00991-JS01020,NA,NA,30,NA,1,BK
+2016-06-10,J08,Naka Creek,13:45,50.480214,-126.414200,"Lauren Portner, Sam James, Claire Atkinson, Melissa Orobko",moderate,100,0,0,NA,10.5,10.1,32.2,10.1,32.2,1,NA,targeted,2,3,2,2,2,1,1,30,1000,10,2000,10,100,0,0,10,2000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01021-JS01050,NA,JH00341-JS00350,31,NA,1,"BK, MO"
+2016-06-11,D04,Fransisco Point,09:42,49.996293,-125.146925,"Luke Rogers, Tim Spesivy, Yuliya Kuzmenko",none,100,0,0.1-5,N,5.3,16.4,25.5,16.4,25.5,0,NA,NA,30,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TS
+2016-06-11,D26,Oyster Bay,08:29,49.917424,-125.164588,"Luke Rogers, Tim Spesivy, Yuliya Kuzmenko",none,100,0,0.1-5,N,7.5,13.7,26.6,13.4,27.4,0,NA,NA,6,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TS
+2016-06-11,D25,Twin Islands,07:05,50.021998,-124.916211,"Luke Rogers, Tim Spesivy, Yuliya Kuzmenko",light,100,0,0,NA,5.5,15.8,23.2,16.1,24.4,2,2,targeted,0,3,1,0,1,0,0,1,1,5,6,0,0,0,0,8,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS0901-DS0901,NA,NA,33,NA,1,TS
+2016-06-11,D25,Twin Islands,06:35,50.021998,-124.916211,"Luke Rogers, Tim Spesivy, Yuliya Kuzmenko",light,100,0,0,NA,5.5,15.8,23.2,16.1,24.4,2,1,targeted,0,3,1,0,1,0,0,0,0,0,10,0,0,0,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TS
+2016-06-11,J05,Stimpson Point,11:45,50.500269,-126.209365,"Sam James, Clare Atkinson, Brianna Knowles, Melissa Orobko",none,100,1,0.1-5,NW,10.0,10.5,30.9,10.3,30.9,1,NA,targeted,16,2,2,2,2,1,1,30,1000,10,1000,0,0,0,0,10,200,NA,NA,NA,NA,NA,NA,chum,1,NA,NA,NA,NA,JS01111-JS01140,NA,NA,34,chum mort at the bottom of the bunt,1,LP
+2016-06-11,J06,Blinkensop Bay,05:13,50.476173,-126.029443,"Lauren Portner, Sam James, Brianna Knowles",none,100,1,5-10,NW,8.0,9.9,30.9,9.9,31.0,1,NA,targeted,14,2,2,1,1,1,1,29,2000,10,2000,1,2,1,1,10,2000,chinook,1,NA,NA,NA,NA,pink,1,NA,NA,NA,NA,JS01051-JS01079,JC00351-JC00351,JH00351-JH00351,32,"pink mort due to mis identification as a sockeye, only 29 sockeye taken as a result; no set site coordinates taken",1,LP
+2016-06-11,J07,South Mouth,08:47,50.456683,-126.153895,"Sam James, Clare Atkinson, Brianna Knowles",none,100,1,5-10,NW,12.5,10.0,30.6,10.0,31.0,1,NA,targeted,10,2,2,2,2,1,0,30,300,10,500,5,6,0,0,10,700,NA,NA,NA,NA,NA,NA,pink,1,NA,NA,NA,NA,JS01081-JS01110,NA,JH00361-JH00365,33,pink mort due to mis identification,1,LP
+2016-06-13,D11,Turn Island,13:15,50.348144,-125.455654,"Luke Rogers, Brett Johnson, Brianna Knowles",light,100,1,0.1-5,NW,11.5,10.9,29.2,10.9,29.2,0,NA,NA,30,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-06-13,D20,Godwin Point,08:08,50.462143,-125.364742,"Luke Rogers, Brett Johnson, Brianna Knowles",none,100,1,0.1-5,W,11.0,10.8,28.2,10.8,28.4,0,NA,NA,25,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-06-13,D21,Hemming Bay,09:50,50.391225,-125.365332,"Luke Rogers, Brett Johnson, Brianna Knowles",none,100,1,0.1-5,NE,11.0,10.8,28.9,10.8,28.9,1,NA,targeted,40,2,1,1,1,0,0,15,15,9,80,0,0,0,0,10,100,NA,NA,NA,NA,NA,NA,pink,1,NA,NA,NA,NA,DS00931-DS00945,NA,NA,34,NA,1,SJ
+2016-06-14,D09,Okisollo Channel,06:34,50.305971,-125.334369,"Luke Rogers, Brianna Knowles, Sam James",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,1,random,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,random blind set thus no other data collected,NA,BJ
+2016-06-14,D09,Okisollo Channel,06:59,50.305971,-125.334369,"Luke Rogers, Brianna Knowles, Sam James",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,2,random,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,random blind set thus no other data collected,NA,BJ
+2016-06-14,D09,Okisollo Channel,07:40,50.305971,-125.334369,"Luke Rogers, Brianna Knowles, Sam James",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,3,random,NA,NA,NA,NA,NA,NA,NA,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,random blind set thus no other data collected,NA,BJ
+2016-06-14,D09,Okisollo Channel,14:20,50.307203,-125.332605,"Luke Rogers, Brianna Knowles, Sam James",none,50,1,0.1-5,S,11.0,12.1,28.4,12.1,28.5,1,NA,targeted,3,2,2,2,1,1,1,30,100,10,200,0,0,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01261-DS01290,NA,NA,37,"3 random sets conducted over DFO accoustic moorings. 1) 06:34 @ 50.305971N, 125.334369W - Dimpling observed but no fish in net. 2) 06:59 @ same as 1st set - some dimpling observed, no fish in net. 3) 07:40 @ western mooring. No surface activity observed, no fish.",1,SJ
+2016-06-14,D22,McMullen Point,08:47,50.235322,-125.398880,"Luke Rogers, Brianna Knowles, Sam James",none,25,1,0.1-5,SE,11.0,11.0,28.2,11.0,29.0,1,NA,targeted,11,2,2,2,0,1,1,30,200,10,400,0,0,0,0,10,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS00961-DS00990,NA,NA,35,mort due to miscount,1,SJ
+2016-06-14,D27,Granite Point,11:58,50.275083,-125.381356,"Luke Rogers, Brianna Knowles, Sam James",none,100,1,0.1-5,SE,12.5,11.4,28.8,11.4,28.8,1,NA,targeted,2,2,2,2,1,1,1,7,7,10,20,0,0,0,0,10,500,NA,NA,NA,NA,NA,NA,pink,1,NA,NA,NA,NA,DS00991-DS00997,NA,NA,36,mort due to miscount,1,SJ
+2016-06-16,D08,Calm Channel,07:20,50.319224,-125.044219,"Sam James, Kate Holmes, Luke Rogers",none,25,0,0,NA,11.0,15.4,14.1,15.6,21.7,2,2,random,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sampling with DFO. Chrys Neville/Nordic Queen second set time: 07:00. Zero surface activity and no fish. DFO also reported minimal fish in their catch, almost no sockeye.",NA,SJ
+2016-06-16,D07,Hoskyn Channel,11:23,50.191383,-125.143884,"Sam James, Kate Holmes, Luke Rogers",none,25,0,0.1-5,S,8.5,17.4,24.9,16.9,25.0,2,1,targeted,9,1,2,1,1,1,0,30,100,10,30,0,0,0,0,10,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01021-DS01050,NA,NA,38,"Released first set, then remembered Brett's request for trainer fish. 10 or more fish escaped from the net through gaps between net and corks.",1,SJ
+2016-06-16,D07,Hoskyn Channel,14:00,50.191383,-125.143884,"Sam James, Kate Holmes, Luke Rogers",none,25,2,5-10,S,8.5,17.4,24.9,16.9,25.0,2,2,targeted,9,1,2,1,0,1,1,30,300,0,100,0,0,0,0,0,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Took 30 sockeye to train lab personnel. Set time not taken, but estimated to be 14:00.",1,SJ
+2016-06-16,D08,Calm Channel,06:58,50.319224,-125.044219,"Sam James, Kate Holmes, Luke Rogers",none,25,0,0,NA,11.0,15.4,14.1,15.6,21.7,2,1,targeted,52,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sampling with DFO. Chrys Neville/Nordic Queen first set time: 06:33. One splash and one dimple ovserved, but not deemed 'settable school'. No other surface activity observed in area. DFO also reported minimal fish in their catch, almost no sockeye.",NA,SJ
+2016-06-16,D24,Surge Narrows,08:50,50.238067,-125.117900,"Sam James, Kate Holmes, Luke Rogers",none,25,0,0,NA,11.5,13.1,27.0,13.1,27.0,2,1,targeted,0,2,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-06-16,D24,Surge Narrows,09:22,50.238067,-125.117900,"Sam James, Kate Holmes, Luke Rogers",none,25,0,0,NA,11.5,13.1,27.0,13.1,27.0,2,2,targeted,0,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sparse splashing, no fish.",NA,SJ
+2016-06-17,J01,Hanson North,13:15,50.579213,-126.714320,"Mirko Diaz, Chris Guinchard, Olivia Gutjahr",none,25,0,5-10,NW,NA,10.7,31.8,10.5,31.8,1,NA,targeted,41,1,1,1,1,1,1,30,80,10,1000,1,1,0,0,10,2000,NA,NA,NA,NA,NA,NA,sockeye,1,chum,2,Pink,2,JS01171-JS01200,NA,JH01171,36,NA,TBD,DS
+2016-06-17,J02,Swanson Island,07:35,50.602051,-126.704553,"Mirko Diaz, Chris Guinchard, Olivia Gutjahr",none,75,0,0.1-5,NW,12.0,9.7,32.0,9.8,31.9,2,2,targeted,1,2,1,0,2,0,1,30,2000,7,100,1,3,3,3,10,100,NA,NA,NA,NA,NA,NA,sockeye,3,NA,NA,NA,NA,JS01141-JS01170,JC01141-JC01143,JH01141,35,~10% of fish suffered scaling due to repositioning of boat in high current conditions,TBD,DS
+2016-06-18,J10,Hanson South,12:37,50.543085,-126.815971,"Stephanie Peacock, Chris Guinchard, Dylan Smyth, Mirko Diaz",none,100,1,0.1-5,NW,9.5,10.6,31.5,10.3,31.5,0,NA,NA,5,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No setable fish. Called it after 1 hour of searching. ,TBD,DS
+2016-06-18,J03,Cracroft Point,13:42,50.546326,-126.669166,"Stephanie Peacock, Chris Guinchard, Dylan Smyth, Mirko Diaz",none,100,1,0.1-5,NW,7.5,11.2,31.3,11.2,31.3,1,NA,targeted,30,1,1,1,0,0,1,6,6,10,20,2,2,0,0,10,100,NA,NA,NA,NA,NA,NA,chum,1,pink ,1,Chinook,1,JS01231-JS01236,NA,JH01231-JH01232,38,"Chinook mis-IDed as Coho, couldn't revive.",TBD,DS
+2016-06-18,J09,Blinkhorn Peninsula,06:37,50.579393,-126.714162,"Stephanie Peacock, Chris Guinchard, Dylan Smyth, Mirko Diaz",none,50,0,0.1-5,NW,8.5,10.3,31.9,10.3,31.8,2,2,targeted,1,2,2,2,2,1,0,30,100,10,400,0,0,7,7,10,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01201-JS01230,JC01201-JC01207,NA,37,NA,TBD,DS
+2016-06-19,J04,Forward Bay,6:45,50.526814,-126.388160,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr, Andrew Bateman",none,100,0,0.1-5,NW,8.0,10.3,29.7,10.3,29.9,0,NA,NA,26,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Searched for 1 hour and 40 minutes, dimpling seen at the end of survey turned out to be perch.",TBD,DS
+2016-06-19,J05,Stimpson Point,11:05,50.506302,-126.241420,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr, Stephanie Peacock",none,75,2,5-10,NW,10.5,10.2,30.7,10.2,30.7,1,NA,targeted,69,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TBD,DS
+2016-06-19,J06,Blenkinsop Bay,13:20,50.506323,-126.241304,"Dylan Smyth, Chris Guinchard, Olivia Gutjahr, Stephanie Peacock",none,75,1,5-10,NW,11.0,11.6,30.3,10.6,30.4,1,NA,targeted,10,2,1,2,2,1,1,30,500,10,500,7,7,0,0,10,3000,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01261-JS01290,NA,JH01261-JH01267,39,NA,TBD,DS
+2016-06-19,J08,Naka Creek,07:53,50.483183,-126.403858,"Chris Guinchard, Olivia Gutjahr, Stephanie Peacock, Dylan Smyth",none,100,1,0.1-5,NW,7.0,10.6,30.3,10.6,30.4,3,3,targeted,5,2,1,1,1,1,0,0,0,0,10,0,10,0,2,0,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Three seperate sets no sockeye. No fish collected.,TBD,DS
+2016-06-20,J07,South Mouth,05:47,50.455728,-126.116461,"Dylan Smyth, Stephanie Peacock, Mirko Diaz, Olivia Guinchard",none,0,0,0,NA,12.5,10.3,30.4,10.3,30.7,1,NA,targeted,13,2,1,2,2,1,0,30,300,10,100,0,0,0,0,10,100,NA,NA,NA,NA,NA,NA,sockeye,2,pink,1,NA,NA,JS01291,JS01320,NA,40,Morts due to being caught in net during pull up. :(,TBD,DS
+2016-06-21,D27,Granite Point,16:51:00 PM,50.274476,-125.377946,"Brett Johnson, Brianna Knowles, Sam James",none,100,2,10-15,SE,12.0,11.2,29.0,11.2,29.0,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BK
+2016-06-21,D09,Okisollo Channel,09:36,50.306610,-125.335266,"Brett Johnson, Brianna Knowles, Sam James",none,25,1,0,NA,13.0,11.6,28.4,11.5,28.5,2,2,targeted,3,2,1,1,2,0,0,14,14,10,30,0,0,0,0,10,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01051-DS01064,NA,NA,39,"DFO set at 09:30. No fish in our first set but large school observed. 3 CTD drops total: 1 practice, 1 @ oceanography site (65m), 1 @ fish site (10m), catch enumerated (sockeye: 14, chum: 36, pink: 27)",1,SJ
+2016-06-21,D09,Okisollo Channel,09:23,50.306610,-125.335266,"Brett Johnson, Brianna Knowles, Sam James",none,25,1,0,NA,13.0,11.6,28.4,11.5,28.5,2,1,targeted,3,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DFO set at 09:30. No fish in our first set but large school observed. 3 CTD drops total: 1 practice, 1 @ oceanography site (65m), 1 @ fish site (10m)",NA,SJ
+2016-06-21,D22,McMullen Point,14:37,50.236643,-125.397340,"Brett Johnson, Brianna Knowles, Sam James",none,25,1,5-10,SE,10.0,11.4,28.7,11.3,28.8,3,3,targeted,7,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3rd set caught approximately 300 fish. Current caused issues and needed to release set. ,NA,SJ
+2016-06-21,D22,McMullen Point,13:00,50.236643,-125.397340,"Brett Johnson, Brianna Knowles, Sam James",none,25,1,0.1-5,NW,10.0,11.4,28.7,11.3,28.8,3,1,targeted,7,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,On site for 2 hours. Set time is an estimate.,NA,SJ
+2016-06-21,D22,McMullen Point,13:45,50.236643,-125.397340,"Brett Johnson, Brianna Knowles, Sam James",none,25,1,0.1-5,NW,10.0,11.4,28.7,11.3,28.8,3,2,targeted,7,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,On site for 2 hours. Set time is an estimate.,NA,SJ
+2016-06-22,D20,Godwin Point,13:00:00 PM,50.458706,-125.365059,"Luke Rogers, Tim Spesivy, Brianna Knowles",none,100,1,0.1-5,N,9.0,12.4,22.9,11.5,26.9,1,NA,targeted,8,1,1,1,1,1,1,30,50,10,100,3,3,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01111-DS01140,NA,DH01111-DH01113,41,NA,1,BK
+2016-06-22,D21,Hemming Bay,07:00,50.382455,-125.373533,"Luke Rogers, Tim Spesivy, Brianna Knowles",none,100,0,0,NA,11.5,11.4,28.8,11.3,28.7,2,2,targeted,0,2,2,1,1,1,1,60,100,10,200,0,0,0,0,10,200,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01081-DS01110,NA,NA,40,2nd set: 0700. 30 sockeye taken as trainer fish. ,1,BK
+2016-06-22,D21,Hemming Bay,06:33,50.382455,-125.373533,"Luke Rogers, Tim Spesivy, Brianna Knowles",none,100,0,0,NA,11.5,11.4,28.8,11.3,28.7,2,1,targeted,0,2,2,1,1,1,1,0,0,0,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1st set: 1 coho only,NA,BK
+2016-06-22,D28,Knox Bay,10:52,50.389920,-125.613237,"Luke Rogers, Tim Spesivy, Brianna Knowles",none,100,1,0.1-5,S,13.0,10.9,29.5,10.9,29.5,1,NA,targeted,30,2,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DFO set at 10:44 - Cameron & Julia report zero sockeye in set. 1st set 10:52 on one aggressive slider. Suspect coho,NA,BK
+2016-06-23,D07,Hoskyn Channel,06:37,50.190862,-125.143147,"Sam James, Tim Spesivy, Luke Rogers",moderate,100,1,0.1-5,N,5.0,16.4,25.4,16.4,25.5,0,NA,NA,25,2,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BK
+2016-06-23,D08,Calm Channel,08:16,50.319929,-125.041001,"Sam James, Tim Spesivy, Luke Rogers",moderate,100,1,0.1-5,NW,6.5,16.9,19.1,17.0,19.6,0,NA,NA,31,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BK
+2016-06-23,D24,Surge Narrows,10:20,50.240430,-125.119941,"Sam James, Tim Spesivy, Luke Rogers",moderate,100,1,0.1-5,S,5.0,15.0,26.4,14.9,26.3,1,NA,targeted,12,2,1,1,2,1,0,21,21,10,200,3,3,0,0,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01141-DS01161,NA,DH01141-DH01143,42,NA,1,BK
+2016-06-23,J03,Cracroft Point,16:17,50.55803,-126.73463,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",light,100,1,0.1-5,NE,9.0,10.7,30.7,10.5,30.7,1,NA,targeted,7,1,1,1,2,1,1,26,27,10,700,7,7,2,2,10,1000,jack chum,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01351-JS01376,JC01351-JC01352,JH01351-JH01357,42,One sockeye released b/c dropped during transfer.,TBD,SM
+2016-06-23,J09,Blinkhorn Peninsula,11:20,50.54401,-126.81461,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",moderate,100,0,0,NA,10.0,10.4,30.1,10.1,31.0,1,NA,targeted,1,2,1,2,1,1,2,0,1,0,300,0,0,0,1,0,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Caught sockeye for Emma, no sockeye in next set. No other sockeye found at site after 20 minute search.",NA,SM
+2016-06-23,J10,Hanson South,13:20,50.55803,-126.73463,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",light,100,0,0,NA,7.5,10.8,30.5,10.6,30.6,1,NA,targeted,0,2,1,2,2,1,2,30,100,10,100,5,5,10,50,10,100,chinook,5,NA,NA,NA,NA,pink,1,NA,NA,NA,NA,JS01321-JS01350,JC01321-JS01330,JH01321-JS01325,41,NA,TBD,SM
+2016-06-24,D26,Oyster Bay,10:37,49.929050,-125.175250,"Brianna Knowles, Natalie Mahara, Luke Rogers",none,75,1,0.1-5,N,7.5,15.5,25.7,14.1,26.6,0,NA,NA,23,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ipad not working. Coordinates taken from phone in degree, minutes, seconds)",NA,BK
+2016-06-24,J01,Hanson North,5:44,50.57849,-126.72185,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",light,100,1,0.1-5,NW,9.0,9.9,31.0,9.7,31.1,0,NA,NA,43,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SM
+2016-06-24,J04,Forward Bay,15:05,50.52635,-126.38762,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",none,100,1,0.1-5,SW,8.5,10.5,30.1,10.2,30.4,0,NA,NA,36,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SM
+2016-06-24,D04,Fransisco Point,11:45,49.997783,-125.159450,"Brianna Knowles, Natalie Mahara, Luke Rogers",none,100,1,0.1-5,S,6.5,17.3,23.6,16.9,24.0,1,NA,targeted,21,1,1,1,1,0,0,9,9,10,70,3,3,0,0,10,70,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01171-DS01179,NA,DH01171-DH01173,43,"1st set no fish, interupted oceanography to set. Crafty fish, very skittish. Gone Quickly. Ipad not working and coordinates were taken off phne in degree decimal minutes. 2nd set: after leaving the site. ",1,BK
+2016-06-24,D25,Twin Islands,07:50,50.022465,-124.916635,"Brianna Knowles, Natalie Mahara, Luke Rogers",light,100,0,0.1-5,NW,6.5,16.6,22.5,16.5,22.6,1,NA,targeted,23,2,1,0,1,0,0,0,0,0,10,0,0,0,0,0,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Natalie asks that we write ""formalin"" on pet jar labels. CTD times stored on IPAD but IPAD touch screen not responding",NA,BK
+2016-06-24,J02,Swanson Island,06:30,50.60170,-126.70318,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",moderate,100,1,0,NA,8.0,9.8,30.6,9.8,30.6,1,NA,targeted,5,2,1,2,1,0,0,4,4,10,20,0,0,1,1,10,20,chinook,6,NA,NA,NA,NA,herring,1,NA,NA,NA,NA,JS01381-JS01384,JC01381-JC01381,NA,43,"Other activity in area, but no distinct sockeye. Difficult catching consditions, so kept school. Herring was small (~6cm) and dead when net was brought in.",TBD,SM
+2016-06-24,J08,Naka Creek,15:05,50.48060,-126.40961,"Andrew Bateman, Shannon Mendt, Clare Atkinson, Fiona Francis",none,100,1,0.1-5,NW,9.5,10.3,30.4,10.3,30.4,2,2,targeted,8,2,1,2,2,1,1,10,10,10,300,2,2,0,0,10,300,chinook,1,dolly varden trout,1,tubesnouts,200,NA,NA,NA,NA,NA,NA,JS01411-JS01420,NA,JH01411-JS01412,44,"Strong current, some fish were jostled and lost scales. Additional bycatch 1 gunnel fish.",TBD,SM
+2016-06-25,J05,Stimpson Point,11:40,50.49874,-126.21257,"Andrew Bateman, Shannon Mendt, Clare Atkinson, Fiona Francis",none,100,1,0.1-5,NW,12.0,10.2,30.7,10.2,30.7,2,2,targeted,0,2,2,1,2,1,0,28,28,10,300,0,0,0,0,10,300,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01501-JS01528,NA,NA,47,NA,TBD,SM
+2016-06-25,J06,Blenkinsop Bay,05:21,50.47508,-126.03392,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",none,100,1,0.1-5,NW,10.5,10.0,30.6,9.9,30.7,1,NA,targeted,0,2,1,2,2,1,0,30,300,10,300,1,1,1,1,10,600,chinook,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01441-JS01470,JC01441-JC01441,JS01441-JH01441,45,NA,TBD,SM
+2016-06-25,J07,South Mouth,07:52,50.45733,-126.16553,"Sean Godwin, Shannon Mendt, Clare Atkinson, Fiona Francis",none,100,1,5-10,NW,11.5,10.0,30.6,10.0,30.7,1,NA,targeted,1,2,1,2,2,1,1,30,50,10,20,0,0,0,0,10,400,stickleback,1,NA,NA,NA,NA,chum,1,pink,1,NA,NA,JS01471-JS01500,NA,NA,46,Morts due to misidentification.,TBD,SM
+2016-06-28,D07,Hoskyn Channel,09:36,50.190453,-125.143332,"Luke Rogeres, Time Spesivy, Yuliya Kuzmenko",none,0,1,0.1-5,SE,5.3,17.8,24.5,17.8,24.5,0,NA,NA,21,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No CTD today due to malfunction,NA,SJ
+2016-06-28,D08,Calm Channel,08:22,50.317597,-125.045246,"Luke Rogeres, Time Spesivy, Yuliya Kuzmenko",none,0,1,0,NA,5.5,18.7,17.5,18.6,18.4,0,NA,NA,27,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No CTD today due to malfunction,NA,SJ
+2016-06-28,D24,Surge Narrows,06:55,50.240198,-125.119865,"Luke Rogeres, Time Spesivy, Yuliya Kuzmenko",none,0,1,0.1-5,E,6.5,16.3,19.5,15.0,22.1,0,NA,NA,21,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No CTD today due to malfunction,NA,SJ
+2016-06-29,D22,McMullen Point,07:25,50.243627,-125.396340,"Luke Rogers, Brett Johnson, Sam James, Grant Callegari",none,0,1,0.1-5,NW,10.0,11.3,28.9,11.3,28.9,0,NA,NA,9,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Search paused at 07:19, continued at 07:41.",NA,SJ
+2016-06-29,D27,Granite Point,06:57,50.274799,-125.377479,"Luke Rogers, Brett Johnson, Sam James, Grant Callegari",none,0,2,5-10,NW,10.8,11.3,28.9,11.3,28.9,0,NA,NA,27,0,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,For site-wide poppers: 2 single pops in 2 separate locations.,NA,SJ
+2016-06-29,D09,Okisollo Channel,09:24,50.307068,-125.329361,"Luke Rogers, Brett Johnson, Sam James, Grant Callegari",none,0,0,0.1-5,W,11.5,11.9,28.5,11.8,28.5,2,1,random,14,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Set 1 with DFO. DFO set at 09:22, Sloop Jo set at 09:24. Random set, no fish.",NA,SJ
+2016-06-29,D09,Okisollo Channel,10:02,50.307068,-125.329361,"Luke Rogers, Brett Johnson, Sam James, Grant Callegari",none,0,0,0.1-5,W,11.5,11.9,28.5,11.8,28.5,2,2,targeted,14,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Set 2 with DFO. DFO set at 10:00, Sloop Jo set at 10:02. Targeted school seen below the surface. No fish.",NA,SJ
+2016-06-30,D28,Knox Bay,13:46,50.387691,-125.619231,"Sam James, Luke Rogers, Brianna Knowles",none,75,2,0.1-5,W,11.5,12.1,28.8,11.5,28.6,0,NA,NA,1,1,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DFO may have sampled in Knox Bay between 10:30-11, but couldn't make contact. Saw them pass through JS. No fish observed so no set conducted.",NA,SJ
+2016-06-30,D11,Turn Island,09:45,50.348081,-125.455923,"Sam James, Luke Rogers, Brianna Knowles",none,0,1,5-10,W,11.5,11.6,28.7,11.4,28.7,1,NA,targeted,18,1,1,2,2,0,0,22,22,10,40,0,0,0,0,10,200,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01321-DS01342,NA,NA,45,Fucus caught on line for zoop tow. May have affected flowmeter.,1,SJ
+2016-06-30,D20,Godwin Point,15:15,50.462531,-125.359047,"Sam James, Luke Rogers, Brianna Knowles",none,75,1,0.1-5,NE,9.5,15.8,19.0,12.4,27.0,1,NA,targeted,15,0,1,1,0,1,1,6,6,10,50,0,0,0,0,10,70,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01351-DS01356,NA,NA,46,"Search paused at 14:51, continued at 15:08.",1,SJ
+2016-06-30,D21,Hemming Bay,06:43,50.378699,-125.373927,"Sam James, Luke Rogers, Brianna Knowles",none,100,1,0.1-5,SE,10.5,11.1,28.4,11.0,28.4,1,NA,targeted,0,1,1,1,2,0,0,6,6,10,300,2,2,0,0,10,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01291-DS01296,NA,DH01291-DH01292,44,NA,1,SJ
+2016-07-04,J03,Cracroft Point,10:17,50.546834,-126.671577,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",light,100,1,0.1-5,N,9.0,10.3,29.6,10.2,29.6,0,NA,NA,57,2,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-04,J10,Hanson South,11:51,50.558034,-126.731939,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",light,100,1,0.1-5,N,10.0,10.4,29.6,10.4,29.6,0,NA,NA,53,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-04,J01,Hanson North,07:51,50.580247,-126.721745,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,75,1,0.1-5,N,8.0,9.7,30.1,9.7,30.1,1,NA,targeted,5,2,2,2,2,1,1,0,0,0,300,0,0,0,0,0,500,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-04,J02,Swanson Island,06:15,50.601529,-126.703784,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,100,1,0.1-5,NW,6.0,10.1,29.3,10.0,29.4,2,2,targeted,3,2,2,2,2,1,0,0,0,0,20,0,0,0,2,0,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-04,J09,Blinkhorn Peninsula,13:35,50.543818,-126.794456,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,50,2,0.1-5,NW,9.0,10.4,29.7,10.0,29.8,1,NA,targeted,18,2,1,2,1,1,1,15,45,10,200,0,0,7,7,10,200,chinook,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01531-JS01545,JC01531-JC01537,NA,48,NA,TBD,DS
+2016-07-05,D07,Hoskyn Channel,10:37,50.190636,-125.142841,"Sam James, Luke Rogers, Tim Spesivy",none,100,1,0.1-5,N,5.5,15.4,26.5,15.4,26.6,0,NA,NA,20,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-07-05,D08,Calm Channel,07:18,50.319379,-125.041062,"Sam James, Luke Rogers, Tim Spesivy",light,100,1,0.1-5,S,4.0,16.3,23.5,16.4,23.7,0,NA,NA,16,2,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-07-05,J04,Forward Bay,07:00,50.526362,-126.389689,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,100,1,0.1-5,NW,10.0,10.0,31.0,10.0,31.0,0,NA,NA,80,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-05,J05,Stimpson Point,10:30,50.507460,-126.241890,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,100,1,0.1-5,NW,11.0,10.1,31.1,10.0,31.1,0,NA,NA,6,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-05,D24,Surge Narrows,08:30,50.240733,-125.120550,"Sam James, Luke Rogers, Tim Spesivy",light,100,0,0.1-5,NW,8.5,13.6,26.5,13.3,26.8,2,1,targeted,7,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-07-05,D24,Surge Narrows,08:50,50.240733,-125.120550,"Sam James, Luke Rogers, Tim Spesivy",light,100,0,0.1-5,NW,8.5,13.6,26.5,13.3,26.8,2,2,targeted,7,2,0,0,2,0,0,0,0,0,1,0,0,0,0,0,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
+2016-07-05,J07,South Mouth,12:45,50.456886,-126.162647,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,25,1,5-10,N,12.5,10.3,31.0,10.3,30.9,1,NA,targeted,NA,2,2,2,1,1,1,30,200,10,300,1,1,0,0,10,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01561-JS01590,NA,JH01561,JH01561,NA,TBD,SG
+2016-07-05,J08,Naka Creek,07:38,50.477790,-126.429726,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,100,1,0.1-5,NW,10.5,10.3,30.7,10.3,30.8,1,NA,targeted,1,2,1,1,2,1,0,0,0,0,80,0,0,0,1,0,20,chinook,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SG
+2016-07-06,D22,McMullen Point,14:11,50.243843,-125.396386,"Luke Rogers, Brett Johnson, Sam James",none,50,1,0.1-5,SE,11.0,11.9,28.7,11.7,28.8,0,NA,NA,24,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,BJ
+2016-07-06,D09,Okisollo Channel,10:15,50.307066,-125.322977,"Brett Johnosn, Luke Rogers, Sam James",none,25,1,0.1-5,S,10.5,12.0,28.6,11.8,28.6,2,2,targeted,NA,2,1,1,2,0,0,8,8,10,100,0,0,1,1,10,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01411 - DS01418,DC01411-DC01411,NA,48,"DFO set: @ 09:55. Luke thinks they fd (net twist) But SJ and BJ think different. LR probably correct because we heard swearing from DFO boat during their net retrieval. Our catch enumerated: 195 fish. DFO caught chum, coho, no sox. DFO earlier in the day caight ~ 300 fish mostly pink + chum with chinook at Deep Water Bay.",1,BJ
+2016-07-06,D09,Okisollo Channel,9:45,50.304502,-125.336639,"Brett Johnosn, Luke Rogers, Sam James",none,25,1,0.1-5,S,10.5,12.0,28.6,11.8,28.6,2,1,targeted,3,2,1,1,2,0,1,0,1,0,20,0,0,0,0,0,40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,re set because there was lots of surface activity elsewhere,NA,BJ
+2016-07-06,D27,Granite Point,6:40,50.275178,-125.378066,"Brett Johnson, Luke Rogers, Sam James",none,75,1,0.1-5,SE,9.5,11.5,28.9,11.4,29.0,1,NA,targeted,8,2,1,1,2,1,1,24,24,10,40,0,0,0,0,10,200,chinook,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,DS01381-DS01404,NA,NA,47,NA,1,BJ
+2016-07-06,J06,Blenkinsop Bay,07:05,50.457049,-126.162651,"Lauren Portner, Dylan Smyth, Mirko Diaz, Olivia Gutjahr",none,25,0,0,NW,11.5,NA,NA,NA,NA,1,NA,targeted,7,2,1,2,2,1,1,22,22,10,300,0,0,1,2,10,300,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,JS01591-JS01613,JC01591-JC01591,NA,NA,left YSI on Madrona,TBD,SG
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
