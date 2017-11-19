@@ -15,7 +15,7 @@ Relevant Links:
 
 * The [raw data](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%208/data) from Hakai's sampling program if you feel so inclined to take a look!
 
-Need to explain what the data is all about here too... blah blah I need to pick out some fishies! ***** (placeholder text) *****
+Need to explain what the data is all about here too... blah blah I need to pick out some fishies! *****
 
 Trouble-shooting Links:
 
