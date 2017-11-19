@@ -11,9 +11,9 @@ Relevant Links:
 
 * Behold! The [Shiny app](https://vanflad.shinyapps.io/Juvenile_Salmon_Sampling/) in all it's glory!
 
-* The [folder]() with all the code where [ui.R](), [server.R]() and [app.R]() reside
+* The [folder](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%208/Shiny) with all the code where [ui.R](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%208/Shiny/ui.R), [server.R](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%208/Shiny/server.R) and [app.R](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%208/Shiny/app.R) reside
 
-* The [raw data]() from Hakai's sampling program if you feel so inclined to take a look!
+* The [raw data](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%208/data) from Hakai's sampling program if you feel so inclined to take a look!
 
 
 Trouble-shooting Links:
