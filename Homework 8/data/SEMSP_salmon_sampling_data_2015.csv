@@ -1,5 +1,37 @@
 date,site.ID,site.name,time,lat,lon,crew,net.sets,min.searching,dimpling,sliders,poppers,precip,wind.speed,wind.direction,cloud.cover,sea.state,secchi,temp.0m,salinity.0m,temp.1m,salinity.1m,so.taken,so.total,cu.taken,cu.total,he.taken,he.total,co.taken,co.total,pi.taken,pi.total,bycatch.spp.1,bycatch.num.1,bycatch.spp.2,bycatch.num.2,bycatch.spp.3,bycatch.num.3,mort.spp.1,mort.num.1,mort.spp.2,mort.num.2,mort.spp.3,mort.num.3,comments,preserved,initials
-yyyy-mm-dd,D## OR J##,designated site name,"24 hrs(hh:mm)",latitude in decimal degrees,longitude in decimal degrees (negative!),full names separated by commas,number of net deployments,number of minutes spent searching for fish,"dimpling activity(0 = none,1 = some2 = many)","slider activity(0 = none,1 = some2 = many)","popper activity(0 = none,1 = some2 = many)","precipitation (none, light, moderate, heavy)","wind speed(knots; 0, 0.1-5, 5-10, 10-15, 15-20, 20-30)","wind direction (NA if wind speed = 0)",percent cloud cover (25% increments),"sea state(beaufort scale)","secchi depth(0.1m)","surface temperature(¡C)","surface salinity(ppt)","1m temperature(¡C)","1m salinity(ppt)",,"total sockeye in net (rounded to nearest 10,100, or 1000)",number of chum retained,"total chum in net (rounded to nearest 10,100, or 1000)",number of herring retained,"total herring in net (rounded to nearest 10,100, or 1000)",number of coho retained,"total coho in net (rounded to nearest 10,100, or 1000)",number of pink retained,"total pink in net (rounded to nearest 10,100, or 1000)","bycatch species #1(NA if none)","number of bycatch species #1 in net(NA if none)","bycatch species #2(NA if none)","number of bycatch species #2 in net(NA if none)","bycatch species #3(NA if none)","number of bycatch species #3 in net(NA if none)","mortality species #1(NA if none)","number of mort species #1 in net(NA if none)","mortality species #2(NA if none)","number of mort species #2 in net(NA if none)","mortality species #3(NA if none)","number of mort species #3 in net(NA if none)",notes from datasheet,"1 = preserved correctly0 = not correctlyTBD = in dewar",initials of data enterer
+yyyy-mm-dd,D## OR J##,designated site name,"24 hrs
+(hh:mm)",latitude in decimal degrees,longitude in decimal degrees (negative!),full names separated by commas,number of net deployments,number of minutes spent searching for fish,"dimpling activity
+(0 = none,
+1 = some
+2 = many)","slider activity
+(0 = none,
+1 = some
+2 = many)","popper activity
+(0 = none,
+1 = some
+2 = many)","precipitation (none, light, moderate, heavy)","wind speed
+(knots; 0, 0.1-5, 5-10, 10-15, 15-20, 20-30)","wind direction 
+(NA if wind speed = 0)",percent cloud cover (25% increments),"sea state
+(beaufort scale)","secchi depth
+(0.1m)","surface temperature
+(Ä„C)","surface salinity
+(ppt)","1m temperature
+(Ä„C)","1m salinity
+(ppt)",,"total sockeye in net (rounded to nearest 10,100, or 1000)",number of chum retained,"total chum in net (rounded to nearest 10,100, or 1000)",number of herring retained,"total herring in net (rounded to nearest 10,100, or 1000)",number of coho retained,"total coho in net (rounded to nearest 10,100, or 1000)",number of pink retained,"total pink in net (rounded to nearest 10,100, or 1000)","bycatch species #1
+(NA if none)","number of bycatch species #1 in net
+(NA if none)","bycatch species #2
+(NA if none)","number of bycatch species #2 in net
+(NA if none)","bycatch species #3
+(NA if none)","number of bycatch species #3 in net
+(NA if none)","mortality species #1
+(NA if none)","number of mort species #1 in net
+(NA if none)","mortality species #2
+(NA if none)","number of mort species #2 in net
+(NA if none)","mortality species #3
+(NA if none)","number of mort species #3 in net
+(NA if none)",notes from datasheet,"1 = preserved correctly
+0 = not correctly
+TBD = in dewar",initials of data enterer
 2015-05-12,D01,Hurtado Point,11:40,49.96130,-124.74700,"Carolyn Knapper, Kristi Inman, Brett Johnson, Ben Millard-Martin, Luke Rogers",3,40,NA,NA,NA,none,5-10,NW,25,3,8.7,13.9,26.9,13.2,26.9,30,NA,10,NA,2,NA,1,NA,0,0,NA,NA,NA,NA,NA,NA,SO ,7,NA,NA,NA,NA,NA,1,"CK, LR"
 2015-05-13,D02,Kinghorn Island,09:49,50.07902,-124.85090,"Carolyn Knapper, Brett Johnson, Ben Millard-Martin, Luke Rogers",1,NA,NA,NA,NA,none,0,NA,100,0,12.1,14.6,26.1,14.6,26.1,30,400,10,40,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,"CK, LR"
 2015-05-14,D04,Fransisco Point,07:38,49.99932,-125.13950,"Carolyn Knapper, Ben Millard-Martin, Luke Rogers",1,NA,NA,NA,NA,none,0.1-5,NW,100,1,8.5,13.5,27.1,13.5,27.2,30,300,0,0,7,10,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,"CK, LR"
