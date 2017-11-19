@@ -1,5 +1,53 @@
 date,site.ID,site.name,time,lat,lon,crew,precip,cloud.cover,sea.state,wind.speed,wind.direction,secchi,temp.0m,salinity.0m,temp.1m,salinity.1m,net.sets,set.number,set.type,min.searching,site.dimpling,site.sliders,site.poppers,set.dimpling,set.sliders,set.poppers,so.taken,so.total,cu.taken,cu.total,he.taken,he.total,co.taken,co.total,pi.taken,pi.total,bycatch.spp.1,bycatch.num.1,bycatch.spp.2,bycatch.num.2,bycatch.spp.3,bycatch.num.3,mort.spp.1,mort.num.1,mort.spp.2,mort.num.2,mort.spp.3,mort.num.3,SO.stockID,CO.stockID,HE.stockID,Whatman#,comments,preserved,initials
-yyyy-mm-dd,D## OR J##,designated site name,"24 hrs(hh:mm) of net set (or of zoop if no set)",latitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),longitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),full names separated by commas,"precipitation (none, light, moderate, heavy)",percent cloud cover (25% increments),"sea state(beaufort scale)","wind speed(knots; 0, 0.1-5, 5-10, 10-15, 15-20, 20-30)","wind direction (NA if wind speed = 0)","secchi depth(0.1m)","surface temperature(ÁC)","surface salinity(ppt)","1m temperature(ÁC)","1m salinity(ppt)",number of net deployments,"If multiple sets at one site, enter which set entered (NA if not multiple sets)",targeted or random (NA if no set),number of minutes spent searching for fish,"dimpling activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","sliding activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","popping activity(0 = none,1 = 1 school,2 = >1 school,3 = big swath)","dimpling activity(0 = none,1 = 1-15,2 = >15, NA if no set)","sliding activity(0 = none,1 = 1-15,2 = >15, NA if no set)","popping activity(0 = none,1 = 1-15,2 = >15, NA if no set)",number of sockeye retained,"total sockeye in net (rounded to nearest 10,100, or 1000)",number of chum retained,"total chum in net (rounded to nearest 10,100, or 1000)",number of herring retained,"total herring in net (rounded to nearest 10,100, or 1000)",number of coho retained,"total coho in net (rounded to nearest 10,100, or 1000)",number of pink retained,"total pink in net (rounded to nearest 10,100, or 1000)","bycatch species #1(NA if none)","number of bycatch species #1 in net(NA if none)","bycatch species #2(NA if none)","number of bycatch species #2 in net(NA if none)","bycatch species #3(NA if none)","number of bycatch species #3 in net(NA if none)","mortality species #1(NA if none)","number of mort species #1 in net(NA if none)","mortality species #2(NA if none)","number of mort species #2 in net(NA if none)","mortality species #3(NA if none)","number of mort species #3 in net(NA if none)",Range of 7 digit codes (DS#####-DS##### or JS#####-JS#####),Range of 7 digit codes (DC#####-DC##### or JC#####-JC#####),Range of 7 digit codes (DH#####-DH##### or JH#####-JH#####),sheet number (continuous throughout the season),notes from datasheet,"1 = preserved correctly0 = not correctlyTBD = in dewarNA = no fish taken",initials of data enterer
+yyyy-mm-dd,D## OR J##,designated site name,"24 hrs
+(hh:mm) of net set (or of zoop if no set)",latitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),longitude in decimal degrees of net set (or of CTD/Zoop/YSI if no set),full names separated by commas,"precipitation (none, light, moderate, heavy)",percent cloud cover (25% increments),"sea state
+(beaufort scale)","wind speed
+(knots; 0, 0.1-5, 5-10, 10-15, 15-20, 20-30)","wind direction 
+(NA if wind speed = 0)","secchi depth
+(0.1m)","surface temperature
+(ÃC)","surface salinity
+(ppt)","1m temperature
+(ÃC)","1m salinity
+(ppt)",number of net deployments,"If multiple sets at one site, enter which set entered (NA if not multiple sets)",targeted or random (NA if no set),number of minutes spent searching for fish,"dimpling activity
+(0 = none,
+1 = 1 school,
+2 = >1 school,
+3 = big swath)","sliding activity
+(0 = none,
+1 = 1 school,
+2 = >1 school,
+3 = big swath)","popping activity
+(0 = none,
+1 = 1 school,
+2 = >1 school,
+3 = big swath)","dimpling activity
+(0 = none,
+1 = 1-15,
+2 = >15, 
+NA if no set)","sliding activity
+(0 = none,
+1 = 1-15,
+2 = >15, 
+NA if no set)","popping activity
+(0 = none,
+1 = 1-15,
+2 = >15, 
+NA if no set)",number of sockeye retained,"total sockeye in net (rounded to nearest 10,100, or 1000)",number of chum retained,"total chum in net (rounded to nearest 10,100, or 1000)",number of herring retained,"total herring in net (rounded to nearest 10,100, or 1000)",number of coho retained,"total coho in net (rounded to nearest 10,100, or 1000)",number of pink retained,"total pink in net (rounded to nearest 10,100, or 1000)","bycatch species #1
+(NA if none)","number of bycatch species #1 in net
+(NA if none)","bycatch species #2
+(NA if none)","number of bycatch species #2 in net
+(NA if none)","bycatch species #3
+(NA if none)","number of bycatch species #3 in net
+(NA if none)","mortality species #1
+(NA if none)","number of mort species #1 in net
+(NA if none)","mortality species #2
+(NA if none)","number of mort species #2 in net
+(NA if none)","mortality species #3
+(NA if none)","number of mort species #3 in net
+(NA if none)",Range of 7 digit codes (DS#####-DS##### or JS#####-JS#####),Range of 7 digit codes (DC#####-DC##### or JC#####-JC#####),Range of 7 digit codes (DH#####-DH##### or JH#####-JH#####),sheet number (continuous throughout the season),notes from datasheet,"1 = preserved correctly
+0 = not correctly
+TBD = in dewar
+NA = no fish taken",initials of data enterer
 2016-05-07,D09,Okisollo Channel,13:04,50.309111,-125.323871,"Brett Johnson, Luke Rogers, Sam James",none,0,2,10-May,NW,11,10.7,28.7,10.5,28.7,0,NA,NA,27,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
 2016-05-07,D22,McMullen Point,7:20,50.224243,-125.395419,"Brett Johnson, Luke Rogers, Sam James",none,25,1,0.1-5,NW,9.5,10,28.9,10,28.9,0,NA,NA,25,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
 2016-05-07,D23,Discovery East,10:53,50.207638,-125.356127,"Brett Johnson, Luke Rogers, Sam James",none,0,1,0.1-5,NW,9.5,10.3,28.5,10.2,28.8,0,NA,NA,30,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,SJ
