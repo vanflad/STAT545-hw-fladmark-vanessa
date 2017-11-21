@@ -23,4 +23,6 @@ Trouble-shooting Links:
 
 * Solving the error message when first attempting to [publish](https://support.rstudio.com/hc/en-us/articles/220339568-What-does-Disconnected-from-Server-mean-in-shinyapps-io-) onto shiny.io
 
+* How to properly use `if(){}else{}` [functions](http://www.dummies.com/programming/r/how-to-chain-ifelse-statements-in-r/) for `conditionalPanel()` coding use
+
 * I'm sure there will be more to add here later when I make things more nice and fancy!
