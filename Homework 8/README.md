@@ -15,7 +15,9 @@ Relevant Links:
 
 * The [raw data](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%208/data) from Hakai's sampling program if you feel so inclined to take a look!
 
-Need to explain what the data is all about here too... blah blah I need to pick out some fishies! *****
+The data I've chosen for this assignment is to assist me in choosing which stations and dates I would like to select fish samples from to analyze their stomach contents/diets and see if different species of juvenile salmon are competing for food resources during a critical time in their early marine migration. So I've included a map of the Discovery Islands (D## sites) and Johnstone Strait (J## sites) because this is the area I would like to investigate, and 2015-2016 are the relevant years, with sampling taking place from May-July each year. Since pink salmon abundance fluctuates every other year, they were the limiting species for sampling, and for my project I need to ensure I have a sufficient number of samples and enough overlap across all three species for comparisons. As I needed an interactive way to view the data and how the number of each species sampled changes over time and across sites, I thought it would be perfect for the assignment and even though it may not be relevant to you since it doesn't have cool info about booze, hopefully you still think it's really neat because I'm sure proud as hell of this fancy Shiny app!!
+
+![](https://raw.githubusercontent.com/vanflad/STAT547-hw-fladmark-vanessa/master/Homework%208/Shiny/www/map.png)
 
 Trouble-shooting Links:
 
@@ -27,4 +29,4 @@ Trouble-shooting Links:
 
 * Why isn't my [`dataTableOutput` rendering](https://github.com/rstudio/DT/issues/140) when published?! Oh, it's because the `DT` library needs to be included in both server and ui, either using `library(DT)` or `DT::dataTableOutput`, as another Github user discovered for me!
 
-* I'm sure there will be more to add here later when I make things more nice and fancy!
+* Apparently when refering to a [reactive dataframe you have to include parenthesis](https://stackoverflow.com/questions/40185762/object-of-type-closure-is-not-subsettable-r-shiny-app) afterward such as `fish()` in my example, as I discovered troubleshooting on Stack Overflow
