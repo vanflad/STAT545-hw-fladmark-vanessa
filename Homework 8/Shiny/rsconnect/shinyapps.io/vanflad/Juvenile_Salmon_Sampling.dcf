@@ -5,8 +5,8 @@ account: vanflad
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 237285
-bundleId: 1083610
+bundleId: 1089633
 url: https://vanflad.shinyapps.io/Juvenile_Salmon_Sampling/
-when: 1511056620.63011
+when: 1511327507.92438
 asMultiple: FALSE
 asStatic: FALSE
