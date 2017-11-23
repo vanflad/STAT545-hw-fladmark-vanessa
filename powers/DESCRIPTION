@@ -1,0 +1,14 @@
+Package: powers
+Type: Package
+Title: Power stuff
+Version: 0.1.0
+Author: VRF
+Maintainer: VRF <https://github.com/vanflad>
+Description: Multiplies a number by itself x number of times (to the power of x!)    i.e. “squared”, “cubed”, “to the power of 4”, etc.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
