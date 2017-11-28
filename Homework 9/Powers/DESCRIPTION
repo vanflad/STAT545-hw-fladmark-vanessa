@@ -1,10 +1,10 @@
 Package: Powers
 Type: Package
-Title: Exponential Powers
+Title: Powers
 Version: 0.1.0
 Authors@R: person("Vanessa", "Fladmark", email = "vanessa40_40@hotmail.com",
   role = c("aut", "cre"))
-Description: Multiplies a number by itself x number of times (to the power of x!)    i.e. “squared”, “cubed”, “to the power of 4”, "inverse (negative) powers", etc.
+Description: Multiplies a number by itself x number of times (to the power of x!) i.e. “squared”, “cubed”, “to the power of 4”, "inverse (negative) powers", etc.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
