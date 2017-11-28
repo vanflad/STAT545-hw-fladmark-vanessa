@@ -1,4 +1,4 @@
-#' Powers.
+#' Powers
 #'
 #' @name Powers
 #' @docType package
