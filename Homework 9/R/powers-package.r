@@ -1,26 +1,32 @@
-#' powers.
+#' Powers.
 #'
-#' @name powers
+#' @name Powers
 #' @docType package
 #'
-#' @param x The vector to be squared.
+#' @param x The vector to be transformed (squared/cubed/etc.)
+#' 
+#' @param a The power to be calculated to, for the transformation
 #'
-#' @return A vector that is the power of \code{x}.
+#' @return A vector \code{x} that is raised to the power of \code{a}.
 #'
 #' @details
-#' This function isn't complicated.
+#' 
+#' This is a simple package that calculates powers, which is a number multiplied by itself a certain amount of times.
 #'
-#' And it almost certainly doesn't need two paragraphs in the "Details"
-#' section!
-#'
-#' Here are some reasons why putting a list in this section is excessive:
+#' The functions include:
 #' \itemize{
-#'      \item This \code{square} function is quite simple.
-#'      \item There's nothing else to say about \code{square}.
+#'      \item powers (for \code{pow})
+#'      \item square (for \code{square})
+#'      \item cube (for \code{cube})
+#'      \item reciprocal/inverse (for \code{reciprocal})
 #' }
+#' 
+#' Each function also returns an informative error when a non-numeric input is given.
 #'
 #' @examples
-#' pow(1:10, 2)
-#' pow(-5, 3)
+#' pow(-3, 4)
+#' square(1:10)
+#' cube(-5)
+#' reciprocal(-2, 3)
 #' @export
 NULL

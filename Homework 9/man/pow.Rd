@@ -2,32 +2,29 @@
 % Please edit documentation in R/pow.R
 \name{pow}
 \alias{pow}
-\title{Calculate the power of a vector}
+\title{Powers}
 \usage{
 pow(x, a)
 }
 \arguments{
-\item{x}{The vector to be squared/cubed/to the power of whatever.}
+\item{x}{The vector to be transformed (squared/cubed/etc.)}
+
+\item{a}{The power to be calculated to, for the transformation}
 }
 \value{
-A vector that is the power of \code{x}.
+A vector \code{x} that is raised to the power of \code{a}.
 }
 \description{
-That's it -- this function just calculates to the power of "a" for a vector.
+This function calculates the power of a vector
 }
 \details{
-This function isn't complicated.
+This is a simple function that calculates powers, which is a number multiplied by itself a certain amount of times.
 
-And it almost certainly doesn't need two paragraphs in the "Details"
-section!
+For example, 2 to the power of 4 is 2 multiplied by 2 and repeated 4 times, the result of which is 16.
 
-Here are some reasons why putting a list in this section is excessive:
-\itemize{
-     \item This \code{square} function is quite simple.
-     \item There's nothing else to say about \code{square}.
-}
+This function also returns an informative error when a non-numeric input is given.
 }
 \examples{
-pow(1:10, 2)
-pow(-5, 3)
+pow(-2, 4)
+pow(1:10, 4)
 }

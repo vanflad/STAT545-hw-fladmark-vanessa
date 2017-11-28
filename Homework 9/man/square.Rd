@@ -13,19 +13,14 @@ square(x)
 A vector that is the square of \code{x}.
 }
 \description{
-That's it -- this function just squares a vector.
+That's it -- this function just squares a vector!
 }
 \details{
-This function isn't complicated.
+A number multiplied by itself is called "squared" or "to the power of 2."
 
-And it almost certainly doesn't need two paragraphs in the "Details"
-section!
+This function utilizes the pow() function in the same package to calculate squares of numbers.
 
-Here are some reasons why putting a list in this section is excessive:
-\itemize{
-     \item This \code{square} function is quite simple.
-     \item There's nothing else to say about \code{square}.
-}
+This function also returns an informative error when a non-numeric input is given.
 }
 \examples{
 square(1:10)

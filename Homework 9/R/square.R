@@ -1,26 +1,29 @@
 #' Square a vector
 #'
-#' That's it -- this function just squares a vector.
+#' That's it -- this function just squares a vector!
 #'
 #' @param x The vector to be squared.
 #'
 #' @return A vector that is the square of \code{x}.
 #'
 #' @details
-#' This function isn't complicated.
+#' 
+#' A number multiplied by itself is called "squared" or "to the power of 2."
+#' 
+#' This function utilizes the pow() function in the same package to calculate squares of numbers.
 #'
-#' And it almost certainly doesn't need two paragraphs in the "Details"
-#' section!
-#'
-#' Here are some reasons why putting a list in this section is excessive:
-#' \itemize{
-#'      \item This \code{square} function is quite simple.
-#'      \item There's nothing else to say about \code{square}.
-#' }
+#' This function also returns an informative error when a non-numeric input is given.
 #'
 #' @examples
 #' square(1:10)
 #' square(-5)
 #' @export
 
-square <- function(x) pow(x, a=2)
+square <- function(x) {
+	if(is.numeric(x)==TRUE){
+		pow(x, a=2)
+	} else {
+		stop("Sorry, this function requires a numeric input!\n",
+				 "You have provided an object of class ", class(x))
+	}
+}
