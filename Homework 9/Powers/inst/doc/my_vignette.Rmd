@@ -16,7 +16,7 @@ The goal of powers is to calculate the exponential power of a number! There are 
 If you already have devtools installed, you can download my package here:
 
 ```{r}
-devtools::install_github("vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209")
+devtools::install_github("vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers")
 ```
 
 ## Example

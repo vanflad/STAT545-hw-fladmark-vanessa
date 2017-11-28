@@ -2,8 +2,8 @@ Package: Powers
 Type: Package
 Title: Exponential Powers
 Version: 0.1.0
-Author: Vanessa Fladmark
-Maintainer: Vanessa Fladmark <vanessa40_40@hotmail.com>
+Authors@R: person("Vanessa", "Fladmark", email = "vanessa40_40@hotmail.com",
+  role = c("aut", "cre"))
 Description: Multiplies a number by itself x number of times (to the power of x!)    i.e. “squared”, “cubed”, “to the power of 4”, "inverse (negative) powers", etc.
 License: MIT + file LICENSE
 Encoding: UTF-8
