@@ -1,7 +1,7 @@
 #' Powers
 #'
 #' @name Powers
-#' @docType Package
+#' @docType package
 #'
 #' @param x The vector to be transformed (squared/cubed/etc.)
 #'
