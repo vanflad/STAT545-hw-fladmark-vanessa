@@ -1,7 +1,7 @@
 Homework 9 Links
 ----------------
 
-Since this is the READEME of the github folder containing the powers package scripts and info, here are the links where you can find all the necessary files and websites I found for troubleshooting!
+Since this is the README of the github folder containing the powers package scripts and info, here are the links where you can find all the necessary files and websites I found for troubleshooting!
 
 -   Folder with [R scripts](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers/R) for functions
 -   The powers package [vignette](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/Powers/vignettes/my_vignette.md)
