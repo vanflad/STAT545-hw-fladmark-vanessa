@@ -1,0 +1,59 @@
+Homework 9 Links
+----------------
+
+Since this is the READEME of the github folder containing the powers package scripts and info, here are the links where you can find all the necessary files!
+
+-   Folder with [R scripts](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/R) for functions
+-   The powers package [vignette](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/inst/doc/my_vignette.Rmd)
+-   [Description](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/DESCRIPTION), [Namespace](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/NAMESPACE) and [License]() in case you want to see those
+-   Homework [instructions](http://stat545.com/hw09_package.html) from STAT545/547 website
+-   Link to Vincenzo's github with some [powers package](https://github.com/vincenzocoia/powers/blob/master/R/pow.R) details that helped get me started
+
+Powers
+------
+
+If you already have devtools installed, you can download my package here:
+
+``` r
+devtools::install_github("vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers")
+```
+
+    ## Downloading GitHub repo vanflad/STAT547-hw-fladmark-vanessa@master
+    ## from URL https://api.github.com/repos/vanflad/STAT547-hw-fladmark-vanessa/zipball/master
+
+    ## Installation failed: Does not appear to be an R package (no DESCRIPTION)
+
+``` r
+library(Powers)
+```
+
+The goal of powers is to calculate the exponential power of a number! There are a variety of functions to choose from, such as `square()`, `cube()`, `reciprocal()` and `pow()` for calculating to the power of two, the power of three, the inverse of a power and the power of any given number `a`, respectively.
+
+Examples
+--------
+
+Here are some basic examples which shows you how to solve common power calculations:
+
+``` r
+pow(-2, 4)
+```
+
+    ## [1] 16
+
+``` r
+square(1:10)
+```
+
+    ##  [1]   1   4   9  16  25  36  49  64  81 100
+
+``` r
+cube(-5)
+```
+
+    ## [1] -125
+
+``` r
+reciprocal(-2, 3)
+```
+
+    ## [1] -0.125

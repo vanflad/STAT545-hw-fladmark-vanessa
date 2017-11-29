@@ -20,6 +20,8 @@ If you already have devtools installed, you can download my package here:
 
 ```{r}
 devtools::install_github("vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers")
+
+library(Powers)
 ```
 
 The goal of powers is to calculate the exponential power of a number! There are a variety of functions to choose from, such as `square()`, `cube()`, `reciprocal()` and `pow()` for calculating to the power of two, the power of three, the inverse of a power and the power of any given number `a`, respectively.
