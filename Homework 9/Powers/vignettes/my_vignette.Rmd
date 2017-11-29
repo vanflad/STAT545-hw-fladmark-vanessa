@@ -2,7 +2,7 @@
 title: "Powers Vignette"
 author: "Vanessa Fladmark"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output:  rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{"Powers Vignette"}
   %\VignetteEngine{knitr::rmarkdown}
