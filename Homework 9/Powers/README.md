@@ -1,14 +1,14 @@
 Homework 9 Links
 ----------------
 
-Since this is the READEME of the github folder containing the powers package scripts and info, here are the links where you can find all the necessary files!
+Since this is the READEME of the github folder containing the powers package scripts and info, here are the links where you can find all the necessary files and websites I found for troubleshooting!
 
--   Folder with [R scripts](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/R) for functions
--   The powers package [vignette](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/inst/doc/my_vignette.Rmd)
--   [Description](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/DESCRIPTION), [Namespace](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/NAMESPACE) and [License]() in case you want to see those
+-   Folder with [R scripts](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers/R) for functions
+-   The powers package [vignette](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/Powers/vignettes/my_vignette.md)
+-   [Description](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/Powers/DESCRIPTION), [Namespace](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/Powers/NAMESPACE) and [License](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%209/Powers/LICENSE) in case you want to see those
 -   Homework [instructions](http://stat545.com/hw09_package.html) from STAT545/547 website
 -   Link to Vincenzo's github with some [powers package](https://github.com/vincenzocoia/powers/blob/master/R/pow.R) details that helped get me started
--   Couldn't get the [package to download from Github](https://stackoverflow.com/questions/31424883/how-do-i-install-rhadoop-package-rhdfs-from-github-using-devtools) and I realized the link given inside `devtools::install_github()` has to be given in a very specific format using `subdir = "Homework 9/Powers"` as I discovered from Stack Overflow!!
+-   Couldn't get the [package to download from Github](https://stackoverflow.com/questions/31424883/how-do-i-install-rhadoop-package-rhdfs-from-github-using-devtools) and I realized the link given inside `devtools::install_github()` has to be given in a very specific format using `subdir = "Homework 9/Powers"` as I discovered from Stack Overflow!
 -   How to get an [.md file for the vignette](https://github.com/klutometis/roxygen/issues/314), I learned to use `rmarkdown::render("my_vignette.Rmd", "github_document")` in the Console of RStudio
 
 Powers
