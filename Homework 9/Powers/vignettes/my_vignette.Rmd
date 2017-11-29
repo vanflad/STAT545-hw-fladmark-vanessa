@@ -17,6 +17,8 @@ If you already have devtools installed, you can download my package here:
 
 ```{r}
 devtools::install_github("vanflad/STAT547-hw-fladmark-vanessa/tree/master/Homework%209/Powers")
+
+library(Powers)
 ```
 
 ## Example

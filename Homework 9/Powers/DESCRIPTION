@@ -3,11 +3,13 @@ Type: Package
 Title: Powers
 Version: 0.1.0
 Authors@R: person("Vanessa", "Fladmark", email = "vanessa40_40@hotmail.com", role = c("aut", "cre"))
-Description: Calculates the powers of numbers in a variety of ways
+Description: Calculates the powers of numbers with a few different functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
+Imports: devtools
 VignetteBuilder: knitr
