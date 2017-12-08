@@ -260,6 +260,10 @@ tail(alwayssunny$Description)
 #see if it worked, cool it did!
 ```
 
+Troubleshooting note: For this final assignment, I've decided to incorporate the troubleshooting into where it's relevant to the code in the Rmd file, rather than at the end of the Rmd or only in the README on Github. Either way, I always give credit where credit is due and I learned how to [transpose](https://www.r-statistics.com/tag/transpose/) a matrix and/or dataframe with `t()`, thanks to Rbloggers!
+
+Furthermore, I found these links to be very helpful as well: Jenny's tutorial for working with [character](http://stat545.com/block028_character-data.html) data, the example of the pepper shaker for accessing [list items](http://r4ds.had.co.nz/vectors.html#lists-of-condiments) using `[[]]` and finally, some introduction to using the [httr](https://www.r-bloggers.com/using-the-httr-package-to-retrieve-data-from-apis-in-r/) package.
+
 A huge chunk of data wrangling and manipulation later and we have finally arrived at a decent inital dataframe to start working with! Let's improve it further:
 
 ``` r
@@ -370,6 +374,8 @@ knitr::kable(chartable, format = "markdown")
 ```
 
 Okay, now into the good stuff of the assignment, the preliminary results! We see from the episode titles that Charlie, Mac, Dennis and Dee are the four main characters with Mac appearing to be the favourite (the actors who play Mac and Dennis are also writers on the show), "other" recurring characters play an important role, Frank (the patriarch of this misfit group, played by Danny Devito) has very few dedicated episodes and the episodes mainly focus on "The Gang" as an ensemble.
+
+Troubleshooting note: In the above code, I learned how to use [str_detect with multiple entries](https://stackoverflow.com/questions/35962426/multiple-strings-with-str-detect-r) by combining with `paste` and the "or" symbol `|`
 
 ``` r
 charplot <- gather(chartable, "Characters", "NumEpisodes")
@@ -483,7 +489,7 @@ write_csv(always, "alwayssunny.csv")
 #write new dataframe to file to save!
 ```
 
-For this final assignment, I've decided to incorporate the troubleshooting into where it's relevant to the code in the Rmd file, rather than at the end of the Rmd or only in the README on Github. I would therefore like to link to the relevant [Stack Overflow](https://stackoverflow.com/questions/3418128/how-to-convert-a-factor-to-an-integer-numeric-without-a-loss-of-information) question that I found when I was trying to figure out why the season numbers were jumping all over the place when attempting to use `as.numeric(always$SeasonNumber)` to convert a factor variable.
+Troubleshooting note: for the code just above `write_csv`, I would like to link to the relevant [Stack Overflow](https://stackoverflow.com/questions/3418128/how-to-convert-a-factor-to-an-integer-numeric-without-a-loss-of-information) question that I found when I was trying to figure out why the season numbers were jumping all over the place when attempting to use `as.numeric(always$SeasonNumber)` to convert a factor variable.
 
 Now that we've found all the offensive and non-offensive episodes and gotten the data on characters appearing in episode titles, it has been combined into one big neat and tidy dataframe named `always`, which I've also saved to file as `alwayssunny.csv` to play around with later when I will eventually need an R refresh!
 
@@ -524,6 +530,8 @@ ggplot(always, aes(SeasonNumber, Offensive))+
 ``` r
 #simple bar chart of how the frequency of offensive episodes has decreased over time
 ```
+
+Troubleshooting note: I replaced `geom_bar` with [`stat_summary`](https://stackoverflow.com/questions/34656403/getting-rid-of-internal-bar-lines-in-a-bar-plot) to eliminate strange horizontal lines that shouldn't be there, thanks to Stack Overflow, once again!
 
 The appearance of offensive topic episodes appears fairly consistently to have at least one episode throughout the seasons, with exceptions, including the last two seasons which seem to be more on the tame side. Season 1 & 3 are determined to be the most offensive and I believe that this makes sense, since season 1 is our first introduction to these insane characters and the show starts off strong on controversial topics, asserting itself as not-another-sitcom. When they were looking at renewal for a second season, the TV network FX told the show it needed a big name star (Danny Devito) to be introduced to get more viewers and so this season they're figuring out the new dynamic of The Gang, is Frank the straight man or is he even more insane than the rest of the characters? Therefore season 2 was more focused on story and less on controversial topics, whereas season 3, the dynamic is established and they can resume their ultimately crazy shenanigans. In my opinion, season 4 is where the show really picks up and manages to finds the balance between absurdity/boudary pushing and comedy gold, where it is no longer trying to be as ridiculous as possible but it's still wacky enough to be entertaining and original.
 
