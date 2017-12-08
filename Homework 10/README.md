@@ -10,4 +10,4 @@ Also, links to homework [instructions](http://stat545.com/hw10_data-from-web.htm
 
 Homework! Aaaaah! Solver of the data! Aaaaah! Master of the tidyverse for everyone! Homewooooork...
 
-Thanks for the peer reviews ya jabronis!!
+Thanks for the peer reviews ya jabronis!! :sunny:
