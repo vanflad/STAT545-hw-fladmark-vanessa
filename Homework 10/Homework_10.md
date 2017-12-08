@@ -12,7 +12,9 @@ Troubleshooting note: I know these API rate limit details because I previously m
 
 The dataset that I will be retrieving from the web today is for the dark comedy Television Show on FXX, It's Always Sunny in Philadelphia! It will include a description of the show, seasons, episode numbers, episode titles, episode descriptions and some preliminary analysis on these, as well as the release dates.
 
-![](http://www.kcconfidential.com/wp-content/uploads/2012/10/SunnyCover.jpg)
+![](https://vignette.wikia.nocookie.net/itsalwayssunny/images/b/bc/Sunny_season_7_poster_2.jpg/revision/latest?cb=20110818050908)
+
+Shown: (top) Dennis, (left to right) Charlie, Mac, Dee, and (bottom) Frank.
 
 First, let's load any needed libraries!
 
@@ -23,7 +25,7 @@ library(listviewer)
 #for using jsonedit() to view lists
 library(purrr)
 #for using map() and working with lists
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 ```
 
     ## Loading tidyverse: ggplot2
@@ -41,7 +43,7 @@ library(tidyverse)
 #data manipulation and graphs, as always
 library(stringr)
 #for working with strings
-library(cowplot)
+suppressPackageStartupMessages(library(cowplot))
 ```
 
     ## 
@@ -478,13 +480,14 @@ always$SeasonNumber <- unfactor(always$SeasonNumber)
 #change from factor to numeric without the numbers acting weird like they do with `as.numeric(factor)`
 
 write_csv(always, "alwayssunny.csv")
+#write new dataframe to file to save!
 ```
 
 For this final assignment, I've decided to incorporate the troubleshooting into where it's relevant to the code in the Rmd file, rather than at the end of the Rmd or only in the README on Github. I would therefore like to link to the relevant [Stack Overflow](https://stackoverflow.com/questions/3418128/how-to-convert-a-factor-to-an-integer-numeric-without-a-loss-of-information) question that I found when I was trying to figure out why the season numbers were jumping all over the place when attempting to use `as.numeric(always$SeasonNumber)` to convert a factor variable.
 
 Now that we've found all the offensive and non-offensive episodes and gotten the data on characters appearing in episode titles, it has been combined into one big neat and tidy dataframe named `always`, which I've also saved to file as `alwayssunny.csv` to play around with later when I will eventually need an R refresh!
 
-Next, create plots and see how these character and offensive variables change over the course of the show from 2005 to 2017 over 12 seasons (2 more seasons coming!)
+Next, create plots and see how these character and offensive variables change over the course of the show from 2005 to 2017 over 12 seasons (with at least 2 more seasons on the way!)
 
 ``` r
 seasonsums <- always %>%
@@ -538,4 +541,4 @@ ggplot(always, aes(SeasonNumber, The_Gang))+
 
 The final graph shows the seasons in which "The Gang..." is most prominent in the episode titles. Now, if you're finishing up this review and thinking wow what a weird person for choosing a TV show so outrageous for an assignment, that's fair, but I wouldn't have gone as in-depth into something like the Simpsons. *But* if you're **also** a little dark and wacky like me and you're thinking "hmm, maybe I should see what all the hype is about for the longest running live-action show on television?" I would love to recommend that you watch It's Always Sunny in Philadelphia starting at Season 5, since the data shows that it's the best season to start with because 0/12 episodes are on offensive topics and there are 6 The Gang focused episodes, and it's also their strongest and most hilarious season.
 
-Regardless of if you watch the show, here's at least a cute one minute clip from Season 5, Episode 8, where Charlie is selling [Kitten Mittons!!](http://itsalwayssunny.wikia.com/wiki/Paddy%27s_Pub:_Home_of_the_Original_Kitten_Mittens?file=Kitten_Mittons!!)
+Regardless of if you watch the show, here's at least a cute one minute clip from Season 5, Episode 8, where Charlie is selling [Kitten Mittens!!](http://itsalwayssunny.wikia.com/wiki/Paddy%27s_Pub:_Home_of_the_Original_Kitten_Mittens?file=Kitten_Mittons!!)
