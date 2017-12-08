@@ -8,13 +8,13 @@ Getting Data from the Web
 
 For this homework I will be making API queries "by hand" using the `httr` package. I first searched the [programmable web](https://www.programmableweb.com/category/movies/apis?category=20114), as recommended by the homework instructions on the [STAT 547](http://stat545.com/hw10_data-from-web.html) website to help narrow down my options. I found a link to [Internet Video Archive](https://developer.iva-api.com/) (IVA)'s Entertainment Express API, which utilizes a Demo Subscription that I obtained for free after signing up for their website. Reviewers may be able to replicate my code by using the same link with the relevant subscription key included in the code, though it maxes out at 1000 API requests and my code requires 134 requests and currently, I believe it can be ran approximately four more times maximum under my API rate limit, which (in theory) should be totally fine. If for whatever reason a peer reviewer accidentally downloads it five times, the solution would have to be to sign up to the website and replace my subscription key in the link with your relevant subscription key but that's a pain in the butt and why I've tried my best to make it work using this method first.
 
-Troubleshooting note: I know these API rate limit details because I previously maxed it out while developing my code and trying to fix errors. The problem was that the function I was using to map over my dataframe was too fast compared to the slower `GET()` function that retrieves the data and I was getting five valid entries then a NULL, then five more entries, then a NULL and this pattern was repeated throughout my entire dataframe. I found a solution in a pacakge update description of [`httr`](https://blog.rstudio.com/2016/07/05/httr-1-2-0/), where the `RETRY()` function is similar to `GET()` but retries if unsuccessful the first few attempts, which was the perfect solution since I knew there were no errors in the descriptions on the website end. I then re-signed up for their site with another email.
+Troubleshooting note: I know these API rate limit details because I previously maxed it out while developing my code and trying to fix errors. The problem was that the function I was using to map over my dataframe was too fast compared to the slower `GET()` function that retrieves the data and I was getting five valid entries then a NULL, then five more entries, then a NULL and this pattern was repeated throughout my entire dataframe. I found a solution in a pacakge update description of [`httr`](https://blog.rstudio.com/2016/07/05/httr-1-2-0/), where the `RETRY()` function is similar to `GET()` but retries if unsuccessful the first few attempts, which was the perfect solution since I knew there were no errors in the descriptions on the website end. I then re-signed up for their site with another email. For simplicity's sake, I've included a plain [R script file](https://github.com/vanflad/STAT547-hw-fladmark-vanessa/blob/master/Homework%2010/Homework%2010.R) as well as this Markdown file (same code), for replicating my results.
 
 The dataset that I will be retrieving from the web today is for the dark comedy Television Show on FXX, It's Always Sunny in Philadelphia! It will include a description of the show, seasons, episode numbers, episode titles, episode descriptions and some preliminary analysis on these, as well as the release dates.
 
 ![](https://vignette.wikia.nocookie.net/itsalwayssunny/images/b/bc/Sunny_season_7_poster_2.jpg/revision/latest?cb=20110818050908)
 
-Shown: (top) Dennis, (left to right) Charlie, Mac, Dee, and (bottom) Frank.
+Shown: (top) Dennis, (left to right) Charlie, Mac, and Dee, and (bottom) Frank.
 
 First, let's load any needed libraries!
 
@@ -25,7 +25,7 @@ library(listviewer)
 #for using jsonedit() to view lists
 library(purrr)
 #for using map() and working with lists
-suppressPackageStartupMessages(library(tidyverse))
+library(tidyverse)
 ```
 
     ## Loading tidyverse: ggplot2
@@ -43,7 +43,7 @@ suppressPackageStartupMessages(library(tidyverse))
 #data manipulation and graphs, as always
 library(stringr)
 #for working with strings
-suppressPackageStartupMessages(library(cowplot))
+library(cowplot)
 ```
 
     ## 
@@ -541,4 +541,4 @@ ggplot(always, aes(SeasonNumber, The_Gang))+
 
 The final graph shows the seasons in which "The Gang..." is most prominent in the episode titles. Now, if you're finishing up this review and thinking wow what a weird person for choosing a TV show so outrageous for an assignment, that's fair, but I wouldn't have gone as in-depth into something like the Simpsons. *But* if you're **also** a little dark and wacky like me and you're thinking "hmm, maybe I should see what all the hype is about for the longest running live-action show on television?" I would love to recommend that you watch It's Always Sunny in Philadelphia starting at Season 5, since the data shows that it's the best season to start with because 0/12 episodes are on offensive topics and there are 6 The Gang focused episodes, and it's also their strongest and most hilarious season.
 
-Regardless of if you watch the show, here's at least a cute one minute clip from Season 5, Episode 8, where Charlie is selling [Kitten Mittens!!](http://itsalwayssunny.wikia.com/wiki/Paddy%27s_Pub:_Home_of_the_Original_Kitten_Mittens?file=Kitten_Mittons!!)
+Regardless of if you watch the show, here's at least a cute one minute clip from Season 5, Episode 8, where Charlie is selling [Kitten Mittens!!](https://www.youtube.com/watch?v=22O6Nmjt-mw)
